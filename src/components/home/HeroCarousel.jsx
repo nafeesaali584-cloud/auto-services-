@@ -33,7 +33,7 @@ const slides = [
     text: "Diagnostics, transmission rebuilds, engine overhaul, bodywork and paint — all under one roof, with genuine parts and a written warranty.",
     highlights: ["Certified Technicians", "Genuine Parts", "Transparent Pricing"],
     image: img.bays,
-    alt: "Luxury cars on hydraulic lifts inside The Gearbox Auto Services workshop in Al Quoz, Dubai",
+    alt: "Luxury cars on hydraulic lifts inside Apex Auto Services workshop in Al Quoz, Dubai",
     primary: { label: "Book Appointment", to: "/appointment" },
     secondary: { label: "Explore Services", to: "/services" },
   },

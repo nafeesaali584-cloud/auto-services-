@@ -16,8 +16,8 @@ export default function Brands() {
   const crumb = [{ label: "Home", to: "/" }, { label: "Brands" }];
 
   usePageMeta(
-    `Car Brands We Service in Dubai | ${brands.length} Luxury Marques · The Gearbox`,
-    "Specialist repair for Mercedes-Benz, BMW, Audi, Porsche, Range Rover, Ferrari, Lamborghini, Toyota, Nissan and more at The Gearbox Auto Services in Al Quoz, Dubai. Genuine parts, dealer diagnostic software and free pickup upon approved estimate."
+    `Car Brands We Service in Dubai | ${brands.length} Luxury Marques · Apex Auto`,
+    "Specialist repair for Mercedes-Benz, BMW, Audi, Porsche, Range Rover, Ferrari, Lamborghini, Toyota, Nissan and more at Apex Auto Services in Al Quoz, Dubai. Genuine parts, dealer diagnostic software and free pickup upon approved estimate."
   );
 
   return (
@@ -30,7 +30,7 @@ export default function Brands() {
         title={`${brands.length} marques. One workshop that knows how each one fails in Dubai.`}
         sub="Every brand on this page has its own diagnostic platform, its own fluid approvals and its own known failure pattern in UAE heat. Choose your marque to see the specific problems we correct, the repair workflow we follow and indicative pricing for your platform."
         image={img.bays}
-        imageAlt="Luxury vehicles from multiple marques on lifts at The Gearbox Auto Services, Al Quoz, Dubai"
+        imageAlt="Luxury vehicles from multiple marques on lifts at Apex Auto Services, Al Quoz, Dubai"
         primaryCta={{ to: "/appointment", label: "Book Brand Specialist" }}
         waMessage={waMessages.pickup}
         disclaimer={`${disclaimers.pickup} ${disclaimers.diagnostic}`}

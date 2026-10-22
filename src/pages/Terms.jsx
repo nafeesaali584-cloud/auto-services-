@@ -37,7 +37,7 @@ const sections = [
     body: [
       "We fit genuine manufacturer parts or OEM-approved equivalents. Your estimate states which category is being supplied, with part numbers, before work begins.",
       "Warranty is provided on all parts fitted. The warranty period and terms vary by component and supplier and are stated in writing on your invoice at handover.",
-      "Workmanship on repairs carried out by The Gearbox Auto Services is warranted alongside the parts supplied. Warranty claims must be presented to us for inspection before any third party intervenes; work carried out elsewhere on an affected system may limit our warranty responsibility.",
+      "Workmanship on repairs carried out by Apex Auto Services is warranted alongside the parts supplied. Warranty claims must be presented to us for inspection before any third party intervenes; work carried out elsewhere on an affected system may limit our warranty responsibility.",
       "Where a customer supplies their own parts, no warranty is provided on those components and the labour warranty may be limited accordingly.",
       `Your manufacturer warranty is not affected by servicing at our workshop: ${disclaimers.warrantyLaw}`,
     ],
@@ -87,8 +87,8 @@ export default function Terms() {
   const crumb = [{ label: "Home", to: "/" }, { label: "Terms & Conditions" }];
 
   usePageMeta(
-    "Terms & Conditions | The Gearbox Auto Services L.L.C, Dubai",
-    "Workshop terms and policies for The Gearbox Auto Services L.L.C, Al Quoz Industrial 4, Dubai — estimates and approvals, diagnostic fees, free inspection and pickup conditions, parts and warranty, turnaround, payment, data and governing law."
+    "Terms & Conditions | Apex Auto Services L.L.C, Dubai",
+    "Workshop terms and policies for Apex Auto Services L.L.C, Al Quoz Industrial 4, Dubai — estimates and approvals, diagnostic fees, free inspection and pickup conditions, parts and warranty, turnaround, payment, data and governing law."
   );
 
   return (
@@ -101,7 +101,7 @@ export default function Terms() {
         title="Terms & Conditions"
         sub={`The basis on which ${site.legalName} carries out diagnostic, repair, bodywork, detailing and contract services at our Al Quoz Industrial 4 workshop in Dubai. Written in plain language so you know exactly what you are agreeing to.`}
         image={img.paint}
-        imageAlt="Dust-free paint booth at The Gearbox Auto Services in Al Quoz Industrial 4, Dubai"
+        imageAlt="Dust-free paint booth at Apex Auto Services in Al Quoz Industrial 4, Dubai"
         primaryCta={{ to: "/contact", label: "Ask a question" }}
         disclaimer={`Last updated: ${new Date().toLocaleDateString("en-AE", { month: "long", year: "numeric" })}`}
       />

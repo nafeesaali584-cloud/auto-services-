@@ -12,7 +12,7 @@ const showcase = [
   { slug: "car-ac-services", num: "02", icon: Snowflake, image: img.ac, alt: "Car air conditioning service and re-gasing in Dubai" },
   { slug: "scanning-diagnostics", num: "03", icon: Zap, image: img.diagnostics, alt: "Computerised diagnostic scan on a luxury car in Dubai" },
   { slug: "body-work", num: "04", icon: Hammer, image: img.paint, alt: "Bodywork and paint correction on a luxury car in Dubai" },
-  { slug: "car-detailing", num: "05", icon: Sparkles, image: img.bays, alt: "Car detailing and polishing inside The Gearbox workshop" },
+  { slug: "car-detailing", num: "05", icon: Sparkles, image: img.bays, alt: "Car detailing and polishing inside Apex Auto workshop" },
   { slug: "battery-services", num: "06", icon: BatteryCharging, image: img.gearbox, alt: "EV and battery service bay in Al Quoz, Dubai" },
 ];
 

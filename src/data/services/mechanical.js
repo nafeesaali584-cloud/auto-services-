@@ -8,7 +8,7 @@ export const mechanicalServices = [
     short: "Dealer-grade periodic maintenance and mechanical repair for luxury, American, German, British and Italian vehicles.",
     h1: "Car Maintenance & Repair in Dubai — Dealer-Grade Servicing Without Dealer Prices",
     intro:
-      "The Gearbox Auto Services is Dubai's dealership alternative for scheduled maintenance and mechanical repair. Our technicians follow manufacturer service schedules to the letter using genuine or OEM-approved parts, then send you a transparent video inspection and itemised estimate on WhatsApp before a single part is ordered.",
+      "Apex Auto Services is Dubai's dealership alternative for scheduled maintenance and mechanical repair. Our technicians follow manufacturer service schedules to the letter using genuine or OEM-approved parts, then send you a transparent video inspection and itemised estimate on WhatsApp before a single part is ordered.",
     climate:
       "Dubai's 50°C summers and Sheikh Zayed Road stop-start traffic shorten every service interval. Engine oil shears down faster, coolant loses its corrosion package, and fine desert dust loads the air filter long before the kilometre interval is due — so we service on condition, not just on distance.",
     protocol: [
@@ -171,7 +171,7 @@ export const mechanicalServices = [
     short: "Dubai's transmission specialists — diagnostics, repair, rebuild, replacement and fluid service.",
     h1: "Transmission & Gearbox Repair in Dubai — Specialists for Automatic, DSG, CVT and DCT",
     intro:
-      "Transmission work is what The Gearbox was built around. We diagnose, repair, rebuild and replace automatic, DSG, CVT, DCT and torque-converter gearboxes for luxury and American vehicles, using dealer-level diagnostics to find the true fault instead of replacing parts by guesswork.",
+      "Transmission work is what Apex Auto was built around. We diagnose, repair, rebuild and replace automatic, DSG, CVT, DCT and torque-converter gearboxes for luxury and American vehicles, using dealer-level diagnostics to find the true fault instead of replacing parts by guesswork.",
     climate:
       "This is the single biggest cause of Dubai gearbox failure: crawling traffic on Sheikh Zayed Road in 48°C heat, with the torque converter slipping and the cooler doing its best against a 50°C ambient. Fluid oxidises, clutch packs glaze, and the mechatronic unit overheats — often with no warning light until it is already damaged.",
     protocol: [

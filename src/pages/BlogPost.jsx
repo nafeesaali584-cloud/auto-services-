@@ -20,10 +20,10 @@ export default function BlogPost() {
   const post = getPost(slug);
 
   usePageMeta(
-    post ? `${post.title} | The Gearbox Auto Services Dubai` : "Article Not Found | The Gearbox Auto Services Dubai",
+    post ? `${post.title} | Apex Auto Services Dubai` : "Article Not Found | Apex Auto Services Dubai",
     post
-      ? `${post.excerpt} Written by the technicians at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai.`
-      : "This article could not be found. Browse the technical automotive blog from The Gearbox Auto Services, Al Quoz Industrial 4, Dubai."
+      ? `${post.excerpt} Written by the technicians at Apex Auto Services, Al Quoz Industrial 4, Dubai.`
+      : "This article could not be found. Browse the technical automotive blog from Apex Auto Services, Al Quoz Industrial 4, Dubai."
   );
 
   if (!post) {
@@ -60,7 +60,7 @@ export default function BlogPost() {
             articleSection: post.category,
             author: { "@type": "Organization", name: site.name },
             publisher: { "@type": "Organization", name: site.name },
-            mainEntityOfPage: `https://www.thegearbox.ae/blog/${post.slug}`,
+            mainEntityOfPage: `https://www.apexauto.ae/blog/${post.slug}`,
           },
         ]}
       />
@@ -71,7 +71,7 @@ export default function BlogPost() {
         title={post.title}
         sub={post.excerpt}
         image={img.diagnostics}
-        imageAlt="Diagnostic equipment in use at The Gearbox Auto Services workshop in Al Quoz, Dubai"
+        imageAlt="Diagnostic equipment in use at Apex Auto Services workshop in Al Quoz, Dubai"
         primaryCta={{ to: "/appointment", label: "Book Free Inspection" }}
         waMessage={waMessages.service(post.category)}
       />
@@ -85,7 +85,7 @@ export default function BlogPost() {
             <Clock className="h-3.5 w-3.5 text-gear" /> {post.readTime}
           </span>
           <span className="font-mono text-[11px] uppercase tracking-wider text-white/55">
-            By The Gearbox Technical Team
+            By Apex Auto Technical Team
           </span>
         </div>
       </section>

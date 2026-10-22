@@ -25,11 +25,11 @@ export default function ServiceDetail() {
 
   usePageMeta(
     service
-      ? `${service.name} in Dubai | ${service.h1.split("—")[0].trim()} · The Gearbox Al Quoz`
-      : "Service Not Found | The Gearbox Auto Services Dubai",
+      ? `${service.name} in Dubai | ${service.h1.split("—")[0].trim()} · Apex Auto Al Quoz`
+      : "Service Not Found | Apex Auto Services Dubai",
     service
-      ? `${service.short} Dealer-level diagnostics, genuine OEM parts and transparent pricing from AED ${service.priceFrom} at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai. Free pickup and delivery upon approved estimate.`
-      : "This service page could not be found. Browse all workshop services at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai."
+      ? `${service.short} Dealer-level diagnostics, genuine OEM parts and transparent pricing from AED ${service.priceFrom} at Apex Auto Services, Al Quoz Industrial 4, Dubai. Free pickup and delivery upon approved estimate.`
+      : "This service page could not be found. Browse all workshop services at Apex Auto Services, Al Quoz Industrial 4, Dubai."
   );
 
   if (!service) {
@@ -63,7 +63,7 @@ export default function ServiceDetail() {
       a: `${service.duration}. We confirm the expected completion time when we book you in and send WhatsApp updates at each stage of the work.`,
     },
     {
-      q: `Will this work at The Gearbox void my manufacturer warranty?`,
+      q: `Will this work at Apex Auto void my manufacturer warranty?`,
       a: "No. Under UAE Federal Consumer Protection Law No. 15 of 2020, servicing at an authorised independent workshop does not void your manufacturer warranty provided OEM guidelines and certified parts are used — which we document on every invoice.",
     },
   ];
@@ -90,7 +90,7 @@ export default function ServiceDetail() {
         title={service.h1}
         sub={service.intro}
         image={imagesByCat[service.cat] || img.bays}
-        imageAlt={`${service.name} at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai`}
+        imageAlt={`${service.name} at Apex Auto Services, Al Quoz Industrial 4, Dubai`}
         primaryCta={{ to: "/appointment", label: `Book ${service.name}` }}
         waMessage={waMessages.service(service.name)}
         disclaimer={`${service.priceFrom > 0 ? `Indicative pricing from AED ${service.priceFrom}. ` : ""}${disclaimers.pickup}`}

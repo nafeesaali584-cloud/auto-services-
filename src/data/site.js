@@ -1,41 +1,38 @@
 // DEMO CONFIGURATION
-// You can set custom demo numbers via environment variables (VITE_DEMO_WA_NUMBER, VITE_DEMO_PHONE)
-// or edit the defaults right here:
-export const DEMO_WA_NUMBER = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEMO_WA_NUMBER) || "971503245150";
-export const DEMO_PHONE = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEMO_PHONE) || "800458";
+export const DEMO_WA_NUMBER = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEMO_WA_NUMBER) || "971500000000";
+export const DEMO_PHONE = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEMO_PHONE) || "+971 4 324 5000";
 
 export const site = {
-  name: "The Gearbox Auto Services L.L.C",
-  shortName: "The Gearbox",
-  legalName: "The Gearbox Auto Services L.L.C",
-  tagline: "Dubai's Trusted Dealership Alternative for Luxury Car Repair & Restoration",
-  street: "16 D Street, Al Quoz Industrial 4",
+  name: "Apex Auto Services L.L.C",
+  shortName: "Apex Auto",
+  legalName: "Apex Auto Services L.L.C",
+  tagline: "Dubai's Premier Dealership Alternative for Luxury & German Car Repair",
+  street: "Al Quoz Industrial 4, 16 D Street",
   city: "Dubai",
   country: "United Arab Emirates",
   countryCode: "AE",
   addressFull: "Al Quoz Industrial 4, 16 D Street, Dubai, United Arab Emirates",
-  email: "service@thegearbox.ae",
+  email: "service@apexauto.ae",
   hours: "Monday – Sunday: 8:00 AM – 7:00 PM",
   hoursShort: "Mon–Sun 8AM–7PM",
   phone: DEMO_PHONE,
   telHref: `tel:${DEMO_PHONE.replace(/\s+/g, '')}`,
   waNumber: DEMO_WA_NUMBER.replace(/\D/g, ''),
   mapEmbed:
-    "https://www.google.com/maps?q=Al%20Quoz%20Industrial%204%2C%2016%20D%20Street%2C%20Dubai&output=embed",
+    "https://www.google.com/maps?q=Al%20Quoz%20Industrial%204%2C%20Dubai&output=embed",
   mapLink:
-    "https://www.google.com/maps/search/?api=1&query=The+Gearbox+Auto+Services+Al+Quoz+Industrial+4+Dubai",
+    "https://www.google.com/maps/search/?api=1&query=Auto+Repair+Al+Quoz+Industrial+4+Dubai",
   reviewLink:
-    "https://www.google.com/maps/search/?api=1&query=The+Gearbox+Auto+Services+Al+Quoz+Industrial+4+Dubai",
+    "https://www.google.com/maps/search/?api=1&query=Auto+Repair+Al+Quoz+Industrial+4+Dubai",
   geo: { lat: 25.129, lng: 55.226 },
   priceRange: "$$",
 };
 
 export const contacts = [
-  { role: "Toll Free Booking Line", name: "Workshop Reception", display: DEMO_PHONE, tel: `tel:${DEMO_PHONE.replace(/\s+/g, '')}` },
-  { role: "Service Advisor", name: "Tarek", display: "+971 50 324 5212", tel: "tel:0503245212" },
-  { role: "Service Advisor", name: "Carrose", display: "+971 50 324 5526", tel: "tel:0503245526" },
-  { role: "Arabic Support", name: "Arabic Support Desk", display: "+971 50 324 5601", tel: "tel:0503245601" },
-  { role: "Service Advisor", name: "Habeeb", display: "+971 52 217 6891", tel: "tel:0522176891" },
+  { role: "Toll Free Booking Line", name: "Workshop Reception Desk", display: DEMO_PHONE, tel: `tel:${DEMO_PHONE.replace(/\s+/g, '')}` },
+  { role: "German Car Specialist", name: "Technical Advisor Desk", display: DEMO_PHONE, tel: `tel:${DEMO_PHONE.replace(/\s+/g, '')}` },
+  { role: "Diagnostics & Mechanical", name: "Master Diagnostic Desk", display: DEMO_PHONE, tel: `tel:${DEMO_PHONE.replace(/\s+/g, '')}` },
+  { role: "Customer Care & Booking", name: "Service Support Desk", display: DEMO_PHONE, tel: `tel:${DEMO_PHONE.replace(/\s+/g, '')}` },
 ];
 
 export const areasServed = [
@@ -80,17 +77,17 @@ export const waLink = (message) =>
 
 export const waMessages = {
   general:
-    "Hello The Gearbox Auto Services — I'd like a quote for my vehicle in Dubai. Please advise on price and earliest booking.",
+    "Hello Apex Auto Services — I'd like a quote for my vehicle in Dubai. Please advise on price and earliest booking.",
   inspection:
-    "Hello The Gearbox — I'd like to book a free vehicle inspection (free upon approval of repair estimate) at your Al Quoz workshop.",
+    "Hello Apex Auto — I'd like to book a free vehicle inspection (free upon approval of repair estimate) at your Al Quoz workshop.",
   pickup:
-    "Hello The Gearbox — I'd like to arrange free pickup and delivery upon approved estimate for my car in Dubai.",
+    "Hello Apex Auto — I'd like to arrange free pickup and delivery upon approved estimate for my car in Dubai.",
   brand: (brand) =>
-    `Hello The Gearbox — I need a specialist ${brand} diagnosis in Dubai. Can you advise on price, turnaround and pickup?`,
+    `Hello Apex Auto — I need a specialist ${brand} diagnosis in Dubai. Can you advise on price, turnaround and pickup?`,
   service: (service) =>
-    `Hello The Gearbox — I'd like a quote for ${service} on my car in Dubai. Please advise on price and booking.`,
+    `Hello Apex Auto — I'd like a quote for ${service} on my car in Dubai. Please advise on price and booking.`,
   booking:
-    "Hello The Gearbox — I'd like to book an appointment. Here are my vehicle details:",
+    "Hello Apex Auto — I'd like to book an appointment. Here are my vehicle details:",
 };
 
 export const social = [

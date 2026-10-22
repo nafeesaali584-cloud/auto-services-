@@ -25,7 +25,7 @@ import FinalConversion from "@/components/home/FinalConversion";
 
 export default function Home() {
   usePageMeta(
-    "The Gearbox Auto Services | Luxury Car Repair & Service in Al Quoz, Dubai",
+    "Apex Auto Services | Luxury Car Repair & Service in Al Quoz, Dubai",
     "Dubai's dealership alternative for luxury car repair, transmission rebuilds, engine overhaul and AC service in Al Quoz Industrial 4. 40% less than dealership prices, free pickup and delivery upon approved estimate. Call 800458."
   );
 

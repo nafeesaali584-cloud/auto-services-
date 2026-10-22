@@ -28,7 +28,7 @@ export default function Blog() {
   const crumb = [{ label: "Home", to: "/" }, { label: "Blog" }];
 
   usePageMeta(
-    "Automotive Blog Dubai | Technical Car Guides for UAE Conditions · The Gearbox",
+    "Automotive Blog Dubai | Technical Car Guides for UAE Conditions · Apex Auto",
     "Technical automotive guides for Dubai drivers — battery failure in extreme heat, AC dust damage, gearbox overheating in traffic, brake fluid moisture, ceramic coating versus PPF, and pre-purchase inspection advice."
   );
 
@@ -42,7 +42,7 @@ export default function Blog() {
         title="Technical automotive guides written for Dubai conditions."
         sub="Not generic maintenance advice. Each guide is written around what actually fails in the UAE — 50°C ambient heat, sandstorm dust, coastal humidity and hours of stationary traffic — and what the correct repair involves."
         image={img.ac}
-        imageAlt="Air conditioning service and diagnostic work being carried out at The Gearbox workshop in Dubai"
+        imageAlt="Air conditioning service and diagnostic work being carried out at Apex Auto workshop in Dubai"
         primaryCta={{ to: "/appointment", label: "Book Free Inspection" }}
         waMessage={waMessages.general}
       />

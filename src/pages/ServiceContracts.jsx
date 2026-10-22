@@ -52,7 +52,7 @@ export default function ServiceContracts() {
 
   usePageMeta(
     "Car Service Contracts Dubai | Dynamic & Signature Packages from AED 2,150",
-    "Dynamic and Signature service contracts from The Gearbox Auto Services, Dubai. 50,000 KM coverage with no annual commitment — 3 minor and 2 major services, free pre-purchase inspection, free recovery, free pickup and delivery, wheel alignment and 30% off labour."
+    "Dynamic and Signature service contracts from Apex Auto Services, Dubai. 50,000 KM coverage with no annual commitment — 3 minor and 2 major services, free pre-purchase inspection, free recovery, free pickup and delivery, wheel alignment and 30% off labour."
   );
 
   return (
@@ -65,7 +65,7 @@ export default function ServiceContracts() {
         title="Lock in 50,000 KM of dealer-grade servicing — with no annual commitment."
         sub="Our Dynamic and Signature contracts spread the cost of manufacturer-scheduled maintenance across 50,000 KM, with priority workshop access, free breakdown recovery, free pickup and delivery, wheel alignment and standing discounts. One price, everything scheduled, nothing skipped."
         image={img.bays}
-        imageAlt="Scheduled servicing bays at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai"
+        imageAlt="Scheduled servicing bays at Apex Auto Services, Al Quoz Industrial 4, Dubai"
         primaryCta={{ to: "/appointment", label: "Start a contract" }}
         waMessage={waMessages.inspection}
         disclaimer={`${disclaimers.pickup} ${disclaimers.inspection} ${disclaimers.diagnostic}`}

@@ -9,22 +9,22 @@ const team = [
     discipline: "Engine & Drivetrain",
     role: "Master technician",
     years: "18+ years",
-    image: "https://media.base44.com/images/public/6ad60d2f5d7210a6fb76f674/52dfd033d_generated_image.png",
-    alt: "Master technician specialising in engine and drivetrain repair at The Gearbox workshop in Dubai",
+    image: "/images/team1.png",
+    alt: "Master technician specialising in engine and drivetrain repair at Apex Auto workshop in Dubai",
   },
   {
     discipline: "Electrical & Diagnostics",
     role: "Diagnostics specialist",
     years: "12+ years",
-    image: "https://media.base44.com/images/public/6ad60d2f5d7210a6fb76f674/385ff02be_generated_image.png",
-    alt: "Automotive electrician carrying out computerised diagnostics at The Gearbox workshop in Dubai",
+    image: "/images/team2.png",
+    alt: "Automotive electrician carrying out computerised diagnostics at Apex Auto workshop in Dubai",
   },
   {
     discipline: "Body, Paint & Trim",
     role: "Refinishing specialist",
     years: "15+ years",
-    image: "https://media.base44.com/images/public/6ad60d2f5d7210a6fb76f674/4ec1bbe9a_generated_image.png",
-    alt: "Bodywork and paint specialist refinishing a car panel at The Gearbox workshop in Dubai",
+    image: "/images/team3.png",
+    alt: "Bodywork and paint specialist refinishing a car panel at Apex Auto workshop in Dubai",
   },
 ];
 

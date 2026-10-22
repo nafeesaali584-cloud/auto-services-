@@ -14,8 +14,8 @@ export default function ExclusiveOffers() {
   const crumb = [{ label: "Home", to: "/" }, { label: "Exclusive Offers" }];
 
   usePageMeta(
-    "Exclusive Offers Dubai | Free Inspection, Free Pickup & Delivery · The Gearbox",
-    "Current offers at The Gearbox Auto Services Dubai — free vehicle inspection upon approval of repair estimate, free pickup and delivery upon approved estimate, free vehicle sanitising, free breakdown recovery, 30% labour discount for contract holders and a free summer AC performance check."
+    "Exclusive Offers Dubai | Free Inspection, Free Pickup & Delivery · Apex Auto",
+    "Current offers at Apex Auto Services Dubai — free vehicle inspection upon approval of repair estimate, free pickup and delivery upon approved estimate, free vehicle sanitising, free breakdown recovery, 30% labour discount for contract holders and a free summer AC performance check."
   );
 
   return (
@@ -28,7 +28,7 @@ export default function ExclusiveOffers() {
         title="The things we include as standard — and the ones we add around them."
         sub="Free vehicle inspection upon approval of your repair estimate, free pickup and delivery upon approved estimate across Dubai, complimentary sanitising with every service, and free breakdown recovery. These are not seasonal gimmicks; they are how we work."
         image={img.ac}
-        imageAlt="Complimentary air conditioning performance check at The Gearbox Auto Services Dubai"
+        imageAlt="Complimentary air conditioning performance check at Apex Auto Services Dubai"
         primaryCta={{ to: "/appointment", label: "Claim free inspection" }}
         waMessage={waMessages.inspection}
         disclaimer={`${disclaimers.inspection} ${disclaimers.pickup} ${disclaimers.diagnostic}`}
@@ -117,7 +117,7 @@ export default function ExclusiveOffers() {
             <div className="lg:col-span-2">
               <Eyebrow tone="light">Offer Conditions</Eyebrow>
               <p className="mt-5 text-[14.5px] leading-relaxed text-copymuted">
-                Offers are available to customers of The Gearbox Auto Services in Dubai and are subject to the
+                Offers are available to customers of Apex Auto Services in Dubai and are subject to the
                 terms stated on each offer card. Complimentary services apply once the related repair estimate has
                 been approved. A minimum diagnostic / inspection fee of AED 300 applies and is disclosed before
                 any work begins. Offers cannot be combined with other promotions unless stated, and contractual

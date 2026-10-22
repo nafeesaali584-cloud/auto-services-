@@ -17,8 +17,8 @@ export default function Testimonials() {
   const crumb = [{ label: "Home", to: "/" }, { label: "Testimonials" }];
 
   usePageMeta(
-    "Verified Customer Reviews | The Gearbox Auto Services Dubai · 4.9★ Google Rating",
-    "Read verified reviews from Dubai drivers who service Mercedes-Benz, BMW, Porsche, Range Rover, Audi, Lexus and more at The Gearbox Auto Services, Al Quoz Industrial 4. Rated 4.9 on Google."
+    "Verified Customer Reviews | Apex Auto Services Dubai · 4.9★ Google Rating",
+    "Read verified reviews from Dubai drivers who service Mercedes-Benz, BMW, Porsche, Range Rover, Audi, Lexus and more at Apex Auto Services, Al Quoz Industrial 4. Rated 4.9 on Google."
   );
 
   return (
@@ -31,7 +31,7 @@ export default function Testimonials() {
         title="Rated 4.9 by Dubai drivers who stopped paying agency prices."
         sub="Real reviews from verified owners describing fair pricing, fast turnaround, accurate diagnosis and transparent video inspections — across German, British, Italian, American and Japanese marques."
         image={img.pickup}
-        imageAlt="Luxury vehicle returned to its owner after service at The Gearbox Auto Services in Dubai"
+        imageAlt="Luxury vehicle returned to its owner after service at Apex Auto Services in Dubai"
         primaryCta={{ to: "/appointment", label: "Book with confidence" }}
         waMessage={waMessages.general}
         stats={[

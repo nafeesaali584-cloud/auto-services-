@@ -15,8 +15,8 @@ export default function Faq() {
   const allItems = faqCategories.flatMap((c) => c.items);
 
   usePageMeta(
-    "Car Repair FAQ Dubai | Warranty, Pricing, Pickup & Parts · The Gearbox",
-    "Answers on UAE warranty law, transparent pricing and the AED 300 diagnostic fee, free pickup and delivery across Dubai, genuine versus OEM parts, and turnaround times at The Gearbox Auto Services, Al Quoz."
+    "Car Repair FAQ Dubai | Warranty, Pricing, Pickup & Parts · Apex Auto",
+    "Answers on UAE warranty law, transparent pricing and the AED 300 diagnostic fee, free pickup and delivery across Dubai, genuine versus OEM parts, and turnaround times at Apex Auto Services, Al Quoz."
   );
 
   return (
@@ -29,7 +29,7 @@ export default function Faq() {
         title="Everything Dubai drivers ask before booking a workshop."
         sub="Five categories covering UAE warranty law, how our estimates work, pickup and delivery coverage, parts authenticity, and turnaround or emergency support. If anything is unclear, message us on WhatsApp — a technician answers."
         image={img.engine}
-        imageAlt="Engine components laid out on the rebuild bench at The Gearbox Auto Services, Dubai"
+        imageAlt="Engine components laid out on the rebuild bench at Apex Auto Services, Dubai"
         primaryCta={{ to: "/appointment", label: "Book Free Inspection" }}
         waMessage={waMessages.general}
         disclaimer={`${disclaimers.diagnostic} ${disclaimers.pickup} ${disclaimers.inspection}`}

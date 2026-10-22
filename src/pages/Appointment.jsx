@@ -37,8 +37,8 @@ export default function Appointment() {
   const crumb = [{ label: "Home", to: "/" }, { label: "Appointment" }];
 
   usePageMeta(
-    "Book A Car Service Appointment in Dubai | Free Pickup & Delivery · The Gearbox",
-    "Book your car service online at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai. Four-step booking, free pickup and delivery upon approved estimate across Dubai, free vehicle inspection upon approval of repair estimate, warranty on all parts."
+    "Book A Car Service Appointment in Dubai | Free Pickup & Delivery · Apex Auto",
+    "Book your car service online at Apex Auto Services, Al Quoz Industrial 4, Dubai. Four-step booking, free pickup and delivery upon approved estimate across Dubai, free vehicle inspection upon approval of repair estimate, warranty on all parts."
   );
 
   return (
@@ -51,7 +51,7 @@ export default function Appointment() {
         title="Book an appointment — free pickup & delivery upon approved estimate across Dubai."
         sub="Four short steps: your vehicle, the service you need, your preferred slot, and whether we collect the car or you drop it off. A service advisor confirms within 60 minutes during workshop hours, and you receive an itemised estimate on WhatsApp before any work begins."
         image={img.diagnostics}
-        imageAlt="Technician booking a diagnostic appointment at The Gearbox Auto Services, Dubai"
+        imageAlt="Technician booking a diagnostic appointment at Apex Auto Services, Dubai"
         waMessage={waMessages.booking}
         waLabel="WhatsApp your booking"
         disclaimer={`${disclaimers.pickup} ${disclaimers.inspection} ${disclaimers.diagnostic}`}

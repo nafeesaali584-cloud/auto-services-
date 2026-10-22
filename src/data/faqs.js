@@ -6,7 +6,7 @@ export const faqCategories = [
       "What UAE consumer protection law actually says about servicing your car at an independent workshop.",
     items: [
       {
-        q: "Will servicing my car at The Gearbox void my manufacturer warranty?",
+        q: "Will servicing my car at Apex Auto void my manufacturer warranty?",
         a: "No. Under UAE Federal Consumer Protection Law No. 15 of 2020, servicing your vehicle at an authorised independent workshop does not void your manufacturer warranty, provided the work follows OEM guidelines and certified parts are used. We document every part number and procedure on your invoice so your service history stands up to any scrutiny.",
       },
       {

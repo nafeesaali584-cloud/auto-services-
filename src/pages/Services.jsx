@@ -26,7 +26,7 @@ export default function Services() {
 
   usePageMeta(
     `Car Repair Services in Dubai | ${services.length} Specialist Workshop Services`,
-    "Explore all workshop services at The Gearbox Auto Services in Al Quoz, Dubai — transmission repair, engine rebuild, AC service, diagnostics, body work, detailing and service contracts. Free pickup and delivery upon approved estimate."
+    "Explore all workshop services at Apex Auto Services in Al Quoz, Dubai — transmission repair, engine rebuild, AC service, diagnostics, body work, detailing and service contracts. Free pickup and delivery upon approved estimate."
   );
 
   return (
@@ -39,7 +39,7 @@ export default function Services() {
         title="Every workshop service your luxury car needs, in one Dubai facility."
         sub={`${services.length} specialist services across mechanical repair, transmission and gearbox work, electrical and AC systems, body and paint, detailing and long-term maintenance contracts. Dealer-level diagnostics, genuine OEM parts and transparent pricing — for around 40% less than UAE dealership prices.`}
         image={img.gearbox}
-        imageAlt="Automatic transmission stripped down on the rebuild bench at The Gearbox Auto Services, Dubai"
+        imageAlt="Automatic transmission stripped down on the rebuild bench at Apex Auto Services, Dubai"
         primaryCta={{ to: "/appointment", label: "Book Free Inspection" }}
         waMessage={waMessages.general}
         disclaimer={`${disclaimers.pickup} ${disclaimers.diagnostic}`}

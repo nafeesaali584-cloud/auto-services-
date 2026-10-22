@@ -67,7 +67,7 @@ export default function ComparisonMatrix() {
             <div className="flex items-center gap-2 border-t border-white/10 bg-gear/[0.06] px-6 py-4 lg:border-l lg:border-t-0">
               <Wrench className="h-4 w-4 text-gear" />
               <span className="font-mono text-[11px] font-bold uppercase tracking-[0.18em] text-gear">
-                The Gearbox Auto Services
+                Apex Auto Services
               </span>
             </div>
           </div>

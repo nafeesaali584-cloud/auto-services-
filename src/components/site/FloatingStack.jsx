@@ -33,7 +33,7 @@ export default function FloatingStack() {
         href={waLink(waMessages.general)}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with The Gearbox on WhatsApp"
+        aria-label="Chat with Apex Auto on WhatsApp"
         className="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-wa text-white shadow-[0_12px_30px_-12px_rgba(37,211,102,0.95)] transition-transform duration-300 hover:scale-105"
       >
         <WhatsAppIcon className="h-5 w-5" />

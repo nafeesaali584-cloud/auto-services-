@@ -49,7 +49,7 @@ export default function LawAuthority() {
                   <div className="relative aspect-[4/3] overflow-hidden rounded-[calc(1.5rem-0.75rem)]">
                     <Image
                       src={img.bays}
-                      alt="Organised service bays with luxury vehicles on lifts inside The Gearbox workshop in Al Quoz Industrial 4, Dubai"
+                      alt="Organised service bays with luxury vehicles on lifts inside Apex Auto workshop in Al Quoz Industrial 4, Dubai"
                       className="h-full w-full object-cover"
                       fittingType="fill"
                     />

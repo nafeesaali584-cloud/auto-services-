@@ -8,7 +8,7 @@ export const detailingServices = [
     short: "Full interior and exterior detailing, paint correction and protection.",
     h1: "Car Detailing in Dubai — Paint Correction, Protection and Interior Restoration",
     intro:
-      "Detailing at The Gearbox means measured paint correction and genuine protection, not a wash and a wax. We decontaminate, correct defects under inspection lighting, and protect the surface so the finish survives the UAE sun for longer.",
+      "Detailing at Apex Auto means measured paint correction and genuine protection, not a wash and a wax. We decontaminate, correct defects under inspection lighting, and protect the surface so the finish survives the UAE sun for longer.",
     climate:
       "Dubai detailing has one job above all others: manage UV. Without real UV protection, clearcoat oxidises, trim chalks and interiors crack. We use products and processes built for this climate.",
     protocol: [

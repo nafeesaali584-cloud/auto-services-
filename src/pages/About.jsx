@@ -42,8 +42,8 @@ export default function About() {
   const crumb = [{ label: "Home", to: "/" }, { label: "About" }];
 
   usePageMeta(
-    "About The Gearbox Auto Services | Luxury Car Workshop in Al Quoz, Dubai",
-    "The Gearbox Auto Services was founded by automotive enthusiasts with over 20 years of combined experience across Europe and the Middle East, to deliver dealership-quality luxury car repair in Dubai without the premium price tag."
+    "About Apex Auto Services | Luxury Car Workshop in Al Quoz, Dubai",
+    "Apex Auto Services was founded by automotive enthusiasts with over 20 years of combined experience across Europe and the Middle East, to deliver dealership-quality luxury car repair in Dubai without the premium price tag."
   );
 
   return (
@@ -54,9 +54,9 @@ export default function About() {
         crumb={crumb}
         eyebrow="Heritage & Mission"
         title="Dubai's trusted destination for luxury car maintenance, repair and restoration."
-        sub="The Gearbox Auto Services was founded by passionate automotive enthusiasts with over 20 years of combined experience across Europe and the Middle East. The workshop was established to provide a dealership-quality experience without the premium price tag — same diagnostics, same procedures, same genuine parts, roughly 40% less."
+        sub="Apex Auto Services was founded by passionate automotive enthusiasts with over 20 years of combined experience across Europe and the Middle East. The workshop was established to provide a dealership-quality experience without the premium price tag — same diagnostics, same procedures, same genuine parts, roughly 40% less."
         image={img.bays}
-        imageAlt="Inside The Gearbox Auto Services workshop in Al Quoz Industrial 4, Dubai"
+        imageAlt="Inside Apex Auto Services workshop in Al Quoz Industrial 4, Dubai"
         primaryCta={{ to: "/appointment", label: "Visit the workshop" }}
         waMessage={waMessages.general}
         disclaimer={`${disclaimers.pickup} ${disclaimers.diagnostic}`}
@@ -79,7 +79,7 @@ export default function About() {
               <p className="mt-5 text-[15px] leading-relaxed text-copymuted">
                 Every luxury car owner in Dubai faces the same choice: pay agency prices and wait in a queue, or
                 hand the car to an unauthorised garage and hope the parts are real. Both options fail the
-                customer. The Gearbox was created to remove that choice entirely.
+                customer. Apex Auto was created to remove that choice entirely.
               </p>
               <p className="mt-4 text-[15px] leading-relaxed text-copymuted">
                 We invested in the diagnostic platforms, the transmission bench, the paint booth and the tooling

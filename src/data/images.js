@@ -1,5 +1,5 @@
 export const img = {
-  logo: "https://static.wixstatic.com/media/686b0f_18311a0fcb7544dc8395f1fe7ee20e73~mv2.png/v1/fill/w_318,h_152,al_c,q_85,usm_0.66_1.00_0.01/thegearbox%20logo.png",
+  logo: "/favicon.svg",
   hero: "/images/hero.png",
   bays: "/images/bays.png",
   engine: "/images/engine.png",
@@ -13,7 +13,7 @@ export const img = {
 export const gallery = [
   {
     src: img.bays,
-    alt: "Pristine service bays with luxury vehicles on hydraulic lifts at The Gearbox Al Quoz workshop",
+    alt: "Pristine service bays with luxury vehicles on hydraulic lifts in Dubai",
     caption: "Twelve service bays in Al Quoz Industrial 4",
   },
   {
@@ -23,7 +23,7 @@ export const gallery = [
   },
   {
     src: img.gearbox,
-    alt: "Automatic transmission gearbox stripped down for diagnosis and rebuild in Dubai",
+    alt: "Automatic transmission stripped down for diagnosis and rebuild in Dubai",
     caption: "Transmission bay — valve bodies, clutch packs and mechatronics",
   },
   {

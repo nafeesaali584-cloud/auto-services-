@@ -6,12 +6,12 @@ export const localBusinessSchema = () => [
   {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "@id": `${site.website || "https://www.thegearbox.ae"}/#autorepair`,
+    "@id": `${site.website || "https://www.apexauto.ae"}/#autorepair`,
     name: site.name,
     alternateName: site.shortName,
     description:
       "Dealership alternative for luxury car repair, transmission rebuilds, engine overhaul and air conditioning service in Al Quoz Industrial 4, Dubai. Advanced diagnostics, genuine OEM parts and free pickup and delivery upon approved estimate.",
-    url: "https://www.thegearbox.ae/",
+    url: "https://www.apexauto.ae/",
     telephone: site.phone,
     email: site.email,
     priceRange: site.priceRange,
@@ -58,9 +58,9 @@ export const localBusinessSchema = () => [
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://www.thegearbox.ae/#localbusiness",
+    "@id": "https://www.apexauto.ae/#localbusiness",
     name: site.name,
-    image: "https://www.thegearbox.ae/images/hero.png",
+    image: "https://www.apexauto.ae/images/hero.png",
     telephone: site.phone,
     priceRange: site.priceRange,
     currenciesAccepted: "AED",
@@ -87,7 +87,7 @@ export const breadcrumbSchema = (items) => ({
     "@type": "ListItem",
     position: i + 1,
     name: item.label,
-    item: `https://www.thegearbox.ae${item.to || ""}`,
+    item: `https://www.apexauto.ae${item.to || ""}`,
   })),
 });
 
@@ -97,7 +97,7 @@ export const serviceSchema = ({ name, description, slug, price }) => ({
   name,
   description,
   serviceType: name,
-  url: `https://www.thegearbox.ae/services/${slug}`,
+  url: `https://www.apexauto.ae/services/${slug}`,
   provider: { "@type": "AutoRepair", name: site.name, telephone: site.phone },
   areaServed: { "@type": "City", name: "Dubai" },
   offers: {
@@ -105,7 +105,7 @@ export const serviceSchema = ({ name, description, slug, price }) => ({
     priceCurrency: "AED",
     price: String(price),
     availability: "https://schema.org/InStock",
-    url: `https://www.thegearbox.ae/services/${slug}`,
+    url: `https://www.apexauto.ae/services/${slug}`,
   },
 });
 
@@ -115,7 +115,7 @@ export const brandSchema = ({ name, description, slug }) => ({
   name: `${name} Repair & Service in Dubai`,
   description,
   serviceType: `${name} repair`,
-  url: `https://www.thegearbox.ae/brands/${slug}`,
+  url: `https://www.apexauto.ae/brands/${slug}`,
   provider: { "@type": "AutoRepair", name: site.name, telephone: site.phone },
   areaServed: { "@type": "City", name: "Dubai" },
 });

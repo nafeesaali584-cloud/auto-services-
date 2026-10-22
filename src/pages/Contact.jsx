@@ -51,8 +51,8 @@ export default function Contact() {
   const crumb = [{ label: "Home", to: "/" }, { label: "Contact" }];
 
   usePageMeta(
-    "Contact The Gearbox Auto Services | Car Workshop Al Quoz Industrial 4, Dubai",
-    "Talk to the workshop directly. Call 800458 or +971 50 324 5212, WhatsApp +971 50 324 5150, or email service@thegearbox.ae. The Gearbox Auto Services, Al Quoz Industrial 4, 16 D Street, Dubai. Free pickup and delivery upon approved estimate."
+    "Contact Apex Auto Services | Car Workshop Al Quoz Industrial 4, Dubai",
+    "Talk to the workshop directly. Call 800458 or +971 50 324 5212, WhatsApp +971 50 324 5150, or email service@apexauto.ae. Apex Auto Services, Al Quoz Industrial 4, 16 D Street, Dubai. Free pickup and delivery upon approved estimate."
   );
 
   return (
@@ -65,7 +65,7 @@ export default function Contact() {
         title="Talk to the workshop directly."
         sub="Call, WhatsApp or send an enquiry — a technician replies within the hour during workshop hours. Free pickup and delivery upon approved estimate across Dubai, and free vehicle inspection upon approval of your repair estimate."
         image={img.pickup}
-        imageAlt="Vehicle collection for free pickup and delivery across Dubai by The Gearbox Auto Services"
+        imageAlt="Vehicle collection for free pickup and delivery across Dubai by Apex Auto Services"
         primaryCta={{ to: "/appointment", label: "Book Appointment" }}
         waMessage={waMessages.general}
         disclaimer={`${disclaimers.diagnostic} ${disclaimers.pickup}`}
@@ -128,7 +128,7 @@ export default function Contact() {
 
           <div className="mt-8 overflow-hidden rounded-3xl border border-black/[0.08]">
             <iframe
-              title="The Gearbox Auto Services location — Al Quoz Industrial 4, Dubai"
+              title="Apex Auto Services location — Al Quoz Industrial 4, Dubai"
               src={site.mapEmbed}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

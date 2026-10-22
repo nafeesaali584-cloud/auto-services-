@@ -54,10 +54,10 @@ export default function BrandDetail() {
   usePageMeta(
     brand
       ? `${brand.name} Repair & Service in Dubai | Specialist ${brand.name} Workshop · Al Quoz`
-      : "Brand Not Found | The Gearbox Auto Services Dubai",
+      : "Brand Not Found | Apex Auto Services Dubai",
     brand
-      ? `Expert ${brand.name} repair and service in Dubai. Certified ${brand.name} technicians, dealer-level diagnostic software, genuine OEM parts and free pickup upon approved estimate at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai.`
-      : "This brand page could not be found. Browse every marque serviced at The Gearbox Auto Services, Al Quoz Industrial 4, Dubai."
+      ? `Expert ${brand.name} repair and service in Dubai. Certified ${brand.name} technicians, dealer-level diagnostic software, genuine OEM parts and free pickup upon approved estimate at Apex Auto Services, Al Quoz Industrial 4, Dubai.`
+      : "This brand page could not be found. Browse every marque serviced at Apex Auto Services, Al Quoz Industrial 4, Dubai."
   );
 
   if (!brand) {
@@ -103,7 +103,7 @@ export default function BrandDetail() {
         title={`Expert ${brand.name} Repair & Service Centre in Dubai`}
         sub={brand.intro}
         image={img.hero}
-        imageAlt={`${brand.name} specialist repair at The Gearbox Auto Services in Al Quoz Industrial 4, Dubai`}
+        imageAlt={`${brand.name} specialist repair at Apex Auto Services in Al Quoz Industrial 4, Dubai`}
         primaryCta={{ to: "/appointment", label: `Book ${brand.name} Service` }}
         waMessage={waMessages.brand(brand.name)}
         waLabel="WhatsApp Specialist"
@@ -138,7 +138,7 @@ export default function BrandDetail() {
         <div className="mx-auto max-w-[1400px] px-5 py-16 lg:px-10 lg:py-20">
           <div className="grid gap-14 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
             <Reveal>
-              <Eyebrow tone="light">The Gearbox Difference</Eyebrow>
+              <Eyebrow tone="light">Apex Auto Difference</Eyebrow>
               <h2 className="mt-6 text-balance text-2xl leading-tight text-ink sm:text-3xl">
                 {brand.name} expertise without the {brand.name} agency invoice.
               </h2>
@@ -254,7 +254,7 @@ export default function BrandDetail() {
                     Procedure
                   </div>
                   <div className="border-l border-white/10 px-4 py-3 font-mono text-[10px] font-bold uppercase tracking-wider text-gear">
-                    The Gearbox
+                    Apex Auto
                   </div>
                   <div className="border-l border-white/10 px-4 py-3 font-mono text-[10px] font-bold uppercase tracking-wider text-white/50">
                     Agency dealers

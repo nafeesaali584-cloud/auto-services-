@@ -11,7 +11,7 @@ export const testimonials = [
     brand: "BMW",
     vehicle: "BMW X5 40i",
     rating: 5,
-    text: "Rough shifts on my X5 that two other garages told me meant a new gearbox. The Gearbox diagnosed the mechatronic sleeve, repaired it, and the car drives like new. The itemised estimate arrived on WhatsApp before they touched anything.",
+    text: "Rough shifts on my X5 that two other garages told me meant a new gearbox. Apex Auto diagnosed the mechatronic sleeve, repaired it, and the car drives like new. The itemised estimate arrived on WhatsApp before they touched anything.",
   },
   {
     name: "Rajesh Nair",
