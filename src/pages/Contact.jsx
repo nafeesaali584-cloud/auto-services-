@@ -14,7 +14,7 @@ const cards = [
   {
     icon: Phone,
     label: "Call Us",
-    lines: [site.phone, "+971 50 324 5212"],
+    lines: [site.phone],
     href: site.telHref,
     cta: "Call the workshop",
   },
@@ -52,7 +52,7 @@ export default function Contact() {
 
   usePageMeta(
     "Contact Apex Auto Services | Car Workshop Al Quoz Industrial 4, Dubai",
-    "Talk to the workshop directly. Call 800458 or +971 50 324 5212, WhatsApp +971 50 324 5150, or email service@apexauto.ae. Apex Auto Services, Al Quoz Industrial 4, 16 D Street, Dubai. Free pickup and delivery upon approved estimate."
+    "Talk to the workshop directly. Call our workshop, WhatsApp us, or email us. Apex Auto Services, Al Quoz Industrial 4, 16 D Street, Dubai. Free pickup and delivery upon approved estimate."
   );
 
   return (
@@ -181,7 +181,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="mt-6 flex min-h-[48px] items-center justify-center gap-2 rounded-full bg-wa font-extrabold uppercase tracking-wide text-ink transition-colors hover:bg-wa-hover"
               >
-                <WhatsAppIcon className="h-4 w-4" /> WhatsApp +971 50 324 5150
+                <WhatsAppIcon className="h-4 w-4" /> Chat on WhatsApp
               </a>
             </div>
 

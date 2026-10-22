@@ -111,7 +111,7 @@ export const faqCategories = [
       },
       {
         q: "What happens if my car breaks down?",
-        a: "Free car breakdown recovery upon approved estimate. Call 800458 or message us on WhatsApp with your location, and we will dispatch recovery to bring the vehicle to our Al Quoz workshop. Recovery is complimentary once you approve the repair estimate.",
+        a: "Free car breakdown recovery upon approved estimate. Call our workshop or message us on WhatsApp with your location, and we will dispatch recovery to bring the vehicle to our Al Quoz workshop. Recovery is complimentary once you approve the repair estimate.",
       },
       {
         q: "Do you offer a mobile mechanic service?",

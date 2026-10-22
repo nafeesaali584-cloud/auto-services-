@@ -4,6 +4,7 @@ import { site } from "@/data/site";
 import { cn } from "@/lib/utils";
 
 export default function Logo({ tone = "dark", className }) {
+  const isLight = tone === "light";
   return (
     <Link
       to="/"
@@ -16,10 +17,10 @@ export default function Logo({ tone = "dark", className }) {
         </svg>
       </div>
       <div className="flex flex-col leading-none">
-        <span className="font-heading text-[17px] font-black tracking-wider text-white uppercase">
+        <span className={cn("font-heading text-[17px] font-black tracking-wider uppercase", isLight ? "text-ink" : "text-white")}>
           APEX<span className="text-gear">AUTO</span>
         </span>
-        <span className="mt-1 font-mono text-[9px] font-bold tracking-widest text-white/50 uppercase">
+        <span className={cn("mt-1 font-mono text-[9px] font-bold tracking-widest uppercase", isLight ? "text-copymuted" : "text-white/50")}>
           DUBAI · LUXURY GARAGE
         </span>
       </div>

@@ -80,7 +80,7 @@ export const brandWorkflow = [
   {
     step: "01",
     title: "Book, Call or Free Pickup",
-    text: "Book online, call 800458 or send a WhatsApp. Free pickup and delivery upon approved estimate from anywhere in Dubai.",
+    text: "Book online, call our workshop or send a WhatsApp. Free pickup and delivery upon approved estimate from anywhere in Dubai.",
   },
   {
     step: "02",

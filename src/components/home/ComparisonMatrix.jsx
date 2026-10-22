@@ -8,33 +8,33 @@ const rows = [
   {
     label: "Labour & parts cost",
     agency: "High dealership mark-up on every line item, plus agency labour rates",
-    gearbox: "Around 40% less than dealership prices, itemised line by line before approval",
+    apex: "Around 40% less than dealership prices, itemised line by line before approval",
   },
   {
     label: "Wait times",
     agency: "Booking queues measured in days or weeks, car held while you wait",
-    gearbox: "Fast turnaround with direct technician communication and WhatsApp updates",
+    apex: "Fast turnaround with direct technician communication and WhatsApp updates",
   },
   {
     label: "Diagnostic depth",
     agency: "Advanced scanning available, but you speak to a service advisor, not a technician",
-    gearbox:
-      "Dealer-level scanning, gearbox and engine diagnostics with transparent video inspections you can actually see",
+    apex:
+      "Dealer-level scanning, transmission and engine diagnostics with transparent video inspections you can actually see",
   },
   {
     label: "Warranty retention",
     agency: "Protected — and priced accordingly",
-    gearbox: "Equally protected under UAE Federal Law No. 15 of 2020 when OEM procedures and certified parts are used",
+    apex: "Equally protected under UAE Federal Law No. 15 of 2020 when OEM procedures and certified parts are used",
   },
   {
     label: "Customer experience",
     agency: "Faceless corporate process, estimates you cannot interrogate",
-    gearbox: "Direct contact with the technician working on your car, plus itemised photos and video",
+    apex: "Direct contact with the technician working on your car, plus itemised photos and video",
   },
   {
     label: "Pickup & delivery",
     agency: "You drive to the industrial area and back, twice",
-    gearbox: "Free pickup and delivery upon approved estimate, anywhere in Dubai",
+    apex: "Free pickup and delivery upon approved estimate, anywhere in Dubai",
   },
 ];
 
@@ -86,7 +86,7 @@ export default function ComparisonMatrix() {
               </div>
               <div className="flex items-start gap-3 border-t border-white/[0.07] bg-gear/[0.04] px-6 py-6 lg:border-l lg:border-t-0">
                 <Check className="mt-0.5 h-4 w-4 shrink-0 text-gear" strokeWidth={3} />
-                <p className="text-[13.5px] leading-relaxed text-white/80">{row.gearbox}</p>
+                <p className="text-[13.5px] leading-relaxed text-white/80">{row.apex}</p>
               </div>
             </div>
           ))}

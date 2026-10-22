@@ -8,7 +8,7 @@ const steps = [
   {
     icon: CalendarCheck,
     title: "Book, Call or WhatsApp",
-    text: "Book online, call 800458, or send us a WhatsApp with your vehicle details and symptoms. A technician replies, not a call centre.",
+    text: "Book online, call our workshop, or send us a WhatsApp with your vehicle details and symptoms. A technician replies, not a call centre.",
   },
   {
     icon: Truck,
