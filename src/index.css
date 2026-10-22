@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 27% 5%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 27% 5%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 27% 5%;
+    --primary: 210 27% 5%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 210 27% 5%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 220 14% 42%;
+    --accent: 48 100% 49%;
+    --accent-foreground: 210 27% 5%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 48 100% 49%;
+    --chart-1: 48 100% 49%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --font-heading: 'Rubik', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'Rubik', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Rubik', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: 'Rubik', ui-sans-serif, system-ui, sans-serif;
+
+    /* Gearbox industrial palette */
+    --ink-master: #0A0E11;
+    --ink-surface: #12181D;
+    --ink-card: #182026;
+    --ink-deep: #070A0D;
+    --light-surface: #F8F8F8;
+    --light-stone: #F7F7F5;
+    --muted-copy: #5A6578;
+    --gear: #FFD700;
+    --gear-hover: #E8C200;
+    --wa: #25D366;
+    --wa-hover: #20BA5A;
+    --line-dark: rgba(255, 255, 255, 0.10);
+    --line-light: rgba(0, 0, 0, 0.08);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.04;
+  }
+
+  /* Reference scale: H1 = 51px / weight 800 on desktop, fluid on smaller screens */
+  h1 {
+    font-size: clamp(1.95rem, 3.4vw + 0.6rem, 51px);
+    font-weight: 800;
+    line-height: 1.06;
+  }
+
+  h2 {
+    font-size: clamp(1.6rem, 1.6vw + 1rem, 40px);
+  }
+
+  input, select, textarea, button {
+    font-size: 16px;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--gear);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--gear);
+    color: var(--ink-master);
+  }
+}
+
+@layer utilities {
+  /* 1. Industrial caution / hazard stripe */
+  .hazard-strip {
+    background-image: repeating-linear-gradient(
+      135deg,
+      #F8C800 0px 10px,
+      #0A0E11 10px 20px
+    );
+  }
+  .hazard-strip-thin {
+    background-image: repeating-linear-gradient(
+      135deg,
+      #F8C800 0px 6px,
+      #0A0E11 6px 12px
+    );
+  }
+
+  /* 2. Precision CAD blueprint grid */
+  .bg-blueprint {
+    background-image:
+      linear-gradient(rgba(248, 200, 0, 0.05) 1px, transparent 0),
+      linear-gradient(90deg, rgba(248, 200, 0, 0.05) 1px, transparent 0);
+    background-size: 38px 38px;
+  }
+  .bg-blueprint-light {
+    background-image:
+      linear-gradient(rgba(10, 14, 17, 0.045) 1px, transparent 0),
+      linear-gradient(90deg, rgba(10, 14, 17, 0.045) 1px, transparent 0);
+    background-size: 38px 38px;
+  }
+
+  /* 3. Subtle film grain */
+  .bg-grain {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 0.6px, transparent 0);
+    background-size: 3px 3px;
+  }
+
+  /* 4. Machined aluminium rivets */
+  .rivets {
+    position: relative;
+  }
+  .rivets::before,
+  .rivets::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.6);
+    z-index: 10;
+  }
+  .rivets::before { left: 10px; }
+  .rivets::after { right: 10px; }
+
+  /* 5. Double-bezel concentric card architecture */
+  .double-bezel {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+  }
+  .double-bezel-inner {
+    background: #12181D;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: calc(1.5rem - 0.5rem);
+    padding: 1.75rem;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  }
+  .double-bezel-light {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+  }
+  .double-bezel-light-inner {
+    background: #F7F7F5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: calc(1.5rem - 0.5rem);
+    padding: 1.75rem;
+  }
+
+  /* 6. Button-in-button nested icon pattern */
+  .btn-nested {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 9999px;
+    padding: 0.6rem 0.6rem 0.6rem 1.4rem;
+    font-weight: 700;
+    transition: all 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  .btn-nested-icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+  }
+  .btn-nested:hover .btn-nested-icon {
+    transform: translateX(3px);
+  }
+
+  /* Motion */
+  .lift {
+    transition: transform 0.45s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .lift:hover {
+    transform: translate3d(0, -4px, 0);
+  }
+
+  @keyframes marquee-x {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(-50%, 0, 0); }
+  }
+  .animate-marquee {
+    animation: marquee-x 34s linear infinite;
+  }
+  .marquee-row:hover .animate-marquee {
+    animation-play-state: paused;
+  }
+
+  @keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55); }
+    70% { box-shadow: 0 0 0 16px rgba(37, 211, 102, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+  }
+  .wa-pulse {
+    animation: pulse-ring 2.4s infinite;
+  }
+
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .mobile-dock-safe {
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.5rem);
+  }
+}

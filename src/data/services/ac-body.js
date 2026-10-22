@@ -1,0 +1,623 @@
+export const acBodyServices = [
+  /* ---------------------------------------------------------------- AC */
+  {
+    slug: "car-ac-services",
+    name: "Car AC Services",
+    cat: "electrical",
+    hub: true,
+    short: "Dubai AC specialists — diagnostics, leak testing, gas refill and compressor repair.",
+    h1: "Car AC Repair & Service in Dubai — Specialised for 50°C Summer Heat",
+    intro:
+      "Air conditioning is not a luxury in Dubai; it decides whether you can use your car in August. We diagnose, leak-test and repair complete AC systems — compressors, condensers, evaporators, expansion valves, blowers and controls — and we measure performance in degrees, not impressions.",
+    climate:
+      "A 50°C ambient temperature plus fine dust loading the condenser and evaporator is the worst possible combination for any AC system. Compressors run at maximum displacement for months, refrigerant escapes through seals that dry out, and airflow drops as dust clogs the evaporator core.",
+    protocol: [
+      "Vent temperature measurement at idle, at speed and after heat soak",
+      "High and low side pressure readings against manufacturer specification",
+      "UV dye and nitrogen pressure leak testing of the complete circuit",
+      "Compressor clutch engagement, current draw and pulley assessment",
+      "Cabin filter, blower and evaporator airflow and cleanliness inspection",
+    ],
+    inclusions: [
+      "Complete AC diagnostic report with temperature and pressure readings",
+      "UV dye leak test identifying the exact leak point before any refill",
+      "Refrigerant recovery and recharge measured by weight, not estimated",
+      "Compressor, condenser, evaporator and expansion valve repair or replacement",
+      "Cabin filter replacement and evaporator cleaning where required",
+      "Warranty on all parts fitted with complimentary vehicle sanitising",
+    ],
+    brandsNote:
+      "German marques use variable-displacement compressors with control valves, Japanese platforms often run simpler fixed units, and American trucks use large-capacity rear systems — each is charged with the correct refrigerant type and weight for its system.",
+    priceFrom: 299,
+    labour: "Diagnostic from AED 250 including temperature and pressure testing",
+    parts: "Refrigerant charged per gram at manufacturer specification; compressors quoted by part number",
+    duration: "Diagnosis same day · condenser or evaporator repair 1 to 2 days",
+  },
+  {
+    slug: "ac-diagnostics-leak-test",
+    name: "AC Diagnostics & Leak Test",
+    cat: "electrical",
+    short: "UV dye and nitrogen pressure leak detection for slow refrigerant loss.",
+    h1: "AC Diagnostics & Leak Testing in Dubai — Find the Leak, Stop the Refills",
+    intro:
+      "If your AC needs gas every few months, something is leaking. Repeated top-ups waste money and let the compressor run dry. Our leak testing uses UV dye, electronic sniffers and nitrogen pressure testing to find the exact failure point so it can be repaired once.",
+    climate:
+      "Heat and vibration dry out O-rings, crack condenser end-tanks and fatigue compressor shaft seals. Fine dust accelerates the process by abrading seal faces — which is why the UAE has one of the highest AC leak rates in the world.",
+    protocol: [
+      "System pressure and vent temperature baseline measurement",
+      "UV dye injection, circulation and inspection of every joint under UV light",
+      "Electronic refrigerant sniffer testing at O-rings, condenser, hoses and compressor",
+      "Nitrogen pressure test held at specification to isolate slow leaks",
+      "Component isolation testing for evaporator, expansion valve and receiver dryer",
+    ],
+    inclusions: [
+      "Complete leak test report naming the exact leaking component",
+      "UV dye inspection of the full circuit including evaporator access where required",
+      "Nitrogen pressure test with hold time documented",
+      "Refrigerant recovery and system evacuation before recharge",
+      "Replacement of leaking O-rings, seals, hoses or condenser as approved",
+      "Refrigerant recharge to manufacturer weight with performance verification",
+    ],
+    brandsNote:
+      "Evaporator leaks on German platforms usually require dash disassembly, while American and Japanese vehicles often allow access through the engine bay — repair approach and cost are confirmed before work begins.",
+    priceFrom: 349,
+    labour: "Leak test from AED 350 with refrigerant recovery included",
+    parts: "Replacement components quoted only after the leak point is identified",
+    duration: "2 to 3 hours for testing",
+  },
+  {
+    slug: "heater-system-inspection",
+    name: "Heater System Inspection",
+    cat: "electrical",
+    short: "Heater matrix, blend door and climate control diagnostics.",
+    h1: "Heater System Inspection in Dubai — Climate Control That Actually Works",
+    intro:
+      "Heater faults are easy to ignore in the UAE until they cause a coolant leak, a fogged windscreen during winter mornings, or a failed AC blend door that ruins cooling. We inspect the heater matrix, blend doors, water valve and control module together.",
+    climate:
+      "Long periods of inactivity let heater matrix cores corrode inside, while 50°C heat embrittles the plastic blend-door actuators used by automatic climate systems — a common and often misdiagnosed Dubai fault.",
+    protocol: [
+      "Cooling system pressure test to reveal heater matrix leaks",
+      "Blend door movement and actuator testing through the climate control unit",
+      "Heater water valve operation and vacuum or electric control verification",
+      "Vent temperature measurement across full hot and cold settings",
+      "Coolant condition and level check with a search for heater core contamination",
+    ],
+    inclusions: [
+      "Cooling system pressure test with leak localisation",
+      "Blend door and actuator function verification",
+      "Heater matrix and water valve assessment",
+      "Vent temperature testing across the climate range",
+      "Coolant condition report and top-up",
+      "Itemised estimate for any required matrix, valve or actuator repair",
+    ],
+    brandsNote:
+      "Porsche and Mercedes climate systems use multi-zone valve blocks, while American trucks and Japanese SUVs commonly run simpler cable or vacuum systems — diagnosis and repair path are matched to the system fitted.",
+    priceFrom: 299,
+    labour: "Inspection from AED 250 including pressure testing",
+    parts: "Matrix, valve or actuator pricing confirmed after diagnosis",
+    duration: "2 hours",
+  },
+  {
+    slug: "ac-gas-refill",
+    name: "AC Gas Refill",
+    cat: "electrical",
+    short: "Refrigerant recharge measured by weight with dye for future diagnosis.",
+    h1: "Car AC Gas Refill in Dubai — Charged by Weight, Not by Guess",
+    intro:
+      "An AC gas refill only works properly when the system is charged to the manufacturer's exact refrigerant weight after a proper vacuum. Undercharging loses cooling; overcharging raises head pressure and kills compressors. We do it correctly, with UV dye added for future diagnosis.",
+    climate:
+      "Ambient heat magnifies every charging error. A system charged by guesswork in Dubai can show normal vent temperatures at idle and then underperform badly in traffic, when it matters most.",
+    protocol: [
+      "Refrigerant identification and system pressure baseline",
+      "Recovery of the existing charge and measurement of the amount removed",
+      "Vacuum evacuation held to confirm circuit integrity",
+      "Recharge by weight to manufacturer specification with UV dye added",
+      "Vent temperature and pressure verification at idle and at speed",
+    ],
+    inclusions: [
+      "Full recovery of old refrigerant with quantity recorded",
+      "Vacuum test confirming system integrity",
+      "Refrigerant recharged to exact manufacturer weight",
+      "PAG oil top-up where specification requires it",
+      "UV dye added for future leak tracing",
+      "Vent temperature and pressure report on completion",
+    ],
+    brandsNote:
+      "R134a and R1234yf systems cannot be mixed and require separate equipment; hybrid and electric vehicles use electric compressors with their own oil specification, all of which we handle correctly.",
+    priceFrom: 249,
+    labour: "Labour included in the quoted refill price",
+    parts: "Refrigerant and PAG oil charged per gram at manufacturer specification",
+    duration: "60 to 90 minutes",
+  },
+  {
+    slug: "ac-compressor-repair",
+    name: "AC Compressor Repair",
+    cat: "electrical",
+    short: "Compressor replacement, clutch repair and control valve service.",
+    h1: "AC Compressor Repair & Replacement in Dubai — Survive 50°C Without Failure",
+    intro:
+      "The compressor is the hardest-working component in a Dubai car during summer, running at maximum displacement for months. We repair clutches, control valves and seals where possible and replace only when the compressor itself has failed internally — after flushing the circuit to prevent contamination destroying the new unit.",
+    climate:
+      "High head pressures from 50°C ambient heat, combined with dust-blocked condensers and low refrigerant charge, is the standard recipe for compressor seizure across the UAE every summer.",
+    protocol: [
+      "Compressor clutch engagement and current draw measurement",
+      "High and low side pressure analysis at idle and raised RPM",
+      "Control valve and variable-displacement actuation testing where fitted",
+      "Oil and debris analysis for internal compressor failure confirmation",
+      "Condenser airflow and cleanliness check before any replacement",
+    ],
+    inclusions: [
+      "Compressor diagnosis with pressure and current draw data",
+      "Genuine or OEM-equivalent compressor, clutch or control valve as required",
+      "System flushing to remove debris from a failed compressor",
+      "New receiver dryer, O-rings and PAG oil as specified",
+      "Refrigerant recharge by weight and performance verification",
+      "Warranty on the compressor and labour with full vent temperature report",
+    ],
+    brandsNote:
+      "Variable-displacement compressors on German platforms frequently need only a control valve, while American and Japanese fixed compressors usually require replacement — we confirm the cheaper correct repair first.",
+    priceFrom: 1450,
+    labour: "Labour from AED 650 including system flush and recharge",
+    parts: "Compressor, dryer and refrigerant itemised by part number before approval",
+    duration: "1 to 2 working days",
+  },
+
+  /* ---------------------------------------------------------------- BATTERY */
+  {
+    slug: "battery-services",
+    name: "Battery Services",
+    cat: "electrical",
+    hub: true,
+    short: "Battery testing, replacement, coding and registration for luxury vehicles.",
+    h1: "Car Battery Replacement in Dubai — Supply, Fit and ECU Registration",
+    intro:
+      "Modern luxury vehicles need their new battery registered to the charging system, otherwise the alternator overcharges it and the battery fails early. We supply, test, fit and code batteries correctly — including AGM and EFB types for stop-start equipped cars.",
+    climate:
+      "Under-bonnet temperatures above 70°C literally boil battery electrolyte and dry the cells. A UAE battery that would last six years in Europe often fails within two to three — which is why we test rather than assume age.",
+    protocol: [
+      "Battery state-of-health and state-of-charge testing with a conductance tester",
+      "Alternator output and charging voltage verification under load",
+      "Parasitic drain test for batteries that die overnight",
+      "Correct battery type, capacity and dimensions confirmed against your VIN",
+      "Battery registration or coding to the vehicle energy management system",
+    ],
+    inclusions: [
+      "Full battery and charging system test with printed results",
+      "Supply and fitment of the correct AGM, EFB or lead-acid battery for your vehicle",
+      "Battery registration or coding where the vehicle requires it",
+      "Terminal cleaning, corrosion protection and clamp inspection",
+      "Memory and setting retention during replacement",
+      "Warranty on the battery supplied with complimentary electrical check",
+    ],
+    brandsNote:
+      "BMW, Mercedes, Audi and Porsche require battery registration through their energy management systems; Lexus, Toyota and American platforms generally accept a straight swap, but all benefit from a charging system verification.",
+    priceFrom: 650,
+    labour: "Labour from AED 120 including coding and registration where applicable",
+    parts: "Battery priced by specification — AGM and EFB types cost more than standard lead-acid",
+    duration: "45 to 90 minutes",
+  },
+  {
+    slug: "computerized-battery-test",
+    name: "Computerized Battery Test",
+    cat: "electrical",
+    short: "Conductance testing and charging system analysis with printed report.",
+    h1: "Computerised Battery Testing in Dubai — Data Before You Replace",
+    intro:
+      "Battery replacement without testing is guesswork. Our computerised testing measures actual cold cranking capability, internal resistance and alternator output under load, so you know whether the battery, the alternator or a parasitic drain is the real problem.",
+    climate:
+      "Heat damage is invisible from outside. A battery can look perfect and still have lost most of its cranking capacity — testing in millivolts and amps is the only reliable way to know before it strands you in a Dubai car park.",
+    protocol: [
+      "Conductance and load testing to measure real cold cranking amps",
+      "State-of-charge and state-of-health percentage calculation",
+      "Alternator output and ripple voltage measurement under load",
+      "Parasitic drain measurement across the vehicle's modules",
+      "Charge acceptance test simulating a hot restart",
+    ],
+    inclusions: [
+      "Printed battery health report with CCA and resistance values",
+      "Alternator and charging system assessment",
+      "Parasitic drain test results with suspected circuit identified where found",
+      "Terminal and cable condition inspection",
+      "Charging advice for your driving pattern in the UAE",
+      "No-obligation recommendation on replacement or reconditioning",
+    ],
+    brandsNote:
+      "Stop-start equipped German vehicles demand AGM batteries with high charge acceptance, and testing results must be read against that specification rather than a generic baseline.",
+    priceFrom: 150,
+    labour: "Testing labour from AED 120 with printed report",
+    parts: "No parts included — replacement quoted only if test results require it",
+    duration: "30 to 45 minutes",
+  },
+  {
+    slug: "battery-cable-testing",
+    name: "Battery Cable Testing",
+    cat: "electrical",
+    short: "Cable, terminal and earth strap resistance testing for starting faults.",
+    h1: "Battery Cable & Terminal Testing in Dubai — Fix Slow Cranking Properly",
+    intro:
+      "Slow cranking and dim lights are often caused by corroded cables and earth straps, not a weak battery. We measure voltage drop across every cable and connection under load, then clean or replace exactly what is causing the resistance.",
+    climate:
+      "Coastal humidity plus airborne dust corrodes terminals and earth straps faster in Dubai than almost anywhere. A cable that passes a visual check can still drop two volts under cranking load.",
+    protocol: [
+      "Voltage drop measurement across positive, negative and earth straps under load",
+      "Terminal and post condition inspection with corrosion assessment",
+      "Starter current draw measurement during cranking",
+      "Earth strap resistance testing from engine block to chassis",
+      "Cable routing and heat-damage inspection near hot components",
+    ],
+    inclusions: [
+      "Voltage drop test results for every main cable and earth path",
+      "Starter current draw and cranking voltage record",
+      "Terminal cleaning and corrosion protection treatment",
+      "Replacement of cables, terminals or earth straps where resistance is excessive",
+      "Heat-shield or routing correction where damage is heat-related",
+      "Post-repair cranking test verification",
+    ],
+    brandsNote:
+      "Modern German and British platforms carry multiple body earth points and battery management sensors — cleaning alone is not enough where the sensor or strap itself has degraded.",
+    priceFrom: 180,
+    labour: "Testing and cleaning labour from AED 150",
+    parts: "Replacement cables, straps and terminals quoted if measurements require them",
+    duration: "45 to 60 minutes",
+  },
+  {
+    slug: "scanning-diagnostics",
+    name: "Scanning & Diagnostics",
+    cat: "electrical",
+    hub: true,
+    short: "Dealer-level fault code scanning, live data analysis and fault tracing.",
+    h1: "Car Diagnostic Scanning in Dubai — Dealer-Level Software, Plain-English Answers",
+    intro:
+      "We run manufacturer-level diagnostic software on your vehicle, reading every module — engine, transmission, ABS, airbag, climate, body and comfort systems. Then we explain what the codes actually mean in plain language, with a clear plan and price to fix them.",
+    climate:
+      "Heat-related electrical faults are extremely common in the UAE: brittle wiring insulation, failing sensors, corroded connectors and modules that shut down protectively in high ambient temperatures. Correct diagnosis prevents expensive blind part replacement.",
+    protocol: [
+      "All-module fault code scan including stored, pending and permanent codes",
+      "Live data capture of relevant sensors under idle, load and road conditions",
+      "Actuator testing and component activation where diagnosis requires it",
+      "Wiring, connector and voltage drop testing on the affected circuit",
+      "Comparison of live values against manufacturer specification ranges",
+    ],
+    inclusions: [
+      "Complete all-module diagnostic scan with a written code report",
+      "Live data logging and interpretation by a specialist technician",
+      "Fault tracing to component level on the affected circuit",
+      "Plain-language explanation of the fault and repair options with prices",
+      "Software coding, reset or adaption where the fault requires it",
+      "Post-repair verification scan confirming the fault is cleared",
+    ],
+    brandsNote:
+      "We run brand-specific platforms for Mercedes (XENTRY), BMW (ISTA), Audi/Volkswagen (ODIS), Porsche (PIWIS) and Land Rover (Pathfinder), plus full coverage for American, Japanese and Italian marques.",
+    priceFrom: 350,
+    labour: "Diagnostic from AED 300 credited toward approved repairs",
+    parts: "Modules and sensors quoted only after component-level diagnosis",
+    duration: "2 to 4 hours",
+  },
+
+  /* ---------------------------------------------------------------- BODY & PAINT */
+  {
+    slug: "body-work",
+    name: "Body Work",
+    cat: "electrical",
+    hub: true,
+    short: "Full body repair, panel replacement, dent removal and colour-matched refinishing.",
+    h1: "Car Body Work in Dubai — Panel Repair and Refinishing to Factory Standard",
+    intro:
+      "From parking dents to full panel replacement, our body shop repairs structure and skin together, then refinishes in a dust-free booth with computerised colour matching so the repair is invisible in Dubai's harsh sunlight.",
+    climate:
+      "Intense UV and heat fade clear coats, dry out sealants and cause filler or paint defects to show within months if the substrate work is poor. Correct preparation matters more here than anywhere.",
+    protocol: [
+      "Damage assessment with photographic record and panel alignment check",
+      "Structural measurement where the damage extends beyond bolt-on panels",
+      "Panel repair or genuine replacement matching your VIN specification",
+      "Panel gap, alignment and shut-line verification before paint",
+      "Computerised colour matching, booth refinishing and final inspection in daylight",
+    ],
+    inclusions: [
+      "Panel beating, dent removal or genuine replacement panel supply",
+      "Anti-corrosion treatment and cavity wax application on repaired areas",
+      "Computerised colour-matched basecoat and clearcoat application",
+      "Panel alignment with recorded gap measurements",
+      "Polishing, blending and final quality inspection under natural light",
+      "Warranty on workmanship with photographs supplied to you",
+    ],
+    brandsNote:
+      "Aluminium-intensive bodies on Audi, Jaguar and Land Rover need separate tooling and techniques from steel panels, and matte or pearl finishes on Porsche and Mercedes require exact formulation matching.",
+    priceFrom: 600,
+    labour: "Labour quoted per panel after physical assessment",
+    parts: "Genuine or OEM-equivalent panels and trim itemised before ordering",
+    duration: "2 to 6 working days depending on panels involved",
+  },
+  {
+    slug: "accident-repair",
+    name: "Accident Repair",
+    cat: "electrical",
+    short: "Accident damage repair with structural measurement and paint matching.",
+    h1: "Accident Repair in Dubai — Structural Repair Done Properly",
+    intro:
+      "After an accident, the visible damage is rarely the whole story. We inspect structure, suspension and safety systems alongside the bodywork, repair to manufacturer measurement tolerances, and recalibrate driver assistance sensors so the car behaves correctly at speed.",
+    climate:
+      "Repairs completed badly in Dubai heat show up fast — misaligned panels, paint mismatch in direct sun, and driver assistance systems that were never recalibrated after windscreen or bumper work.",
+    protocol: [
+      "Full damage assessment including structure, suspension and safety systems",
+      "Diagnostic scan for airbag, ABS and driver assistance fault codes",
+      "Panel repair or replacement with alignment measurements taken",
+      "Recalibration of cameras, radar and parking sensors after repair",
+      "Alignment, road test and final inspection before handover",
+    ],
+    inclusions: [
+      "Structural and cosmetic repair to manufacturer measurement tolerances",
+      "Genuine or OEM-equivalent panels, lamps and trim components",
+      "Airbag, seatbelt and sensor system verification and reset",
+      "Camera and radar recalibration for driver assistance systems",
+      "Four-wheel alignment and road test verification",
+      "Photographic repair documentation and workmanship warranty",
+    ],
+    brandsNote:
+      "Recalibrating adaptive cruise and lane-keeping systems requires brand-specific targets and procedures for Mercedes, BMW, Audi, Porsche, Volvo and Land Rover — omitted by many UAE body shops.",
+    priceFrom: 1500,
+    labour: "Labour and alignment quoted after the damage assessment",
+    parts: "Panels, lamps and sensors itemised against OEM part numbers",
+    duration: "3 to 10 working days depending on severity",
+  },
+  {
+    slug: "dents-scratches-repair",
+    name: "Dents & Scratches Repair",
+    cat: "electrical",
+    short: "Paintless dent removal and scratch repair with colour matching.",
+    h1: "Dent & Scratch Repair in Dubai — Invisible Repairs, Preserved Original Paint",
+    intro:
+      "Wherever possible we remove dents using paintless dent removal, preserving your original factory finish and resale value. Deeper scratches are refinished with computerised colour matching and blended into adjacent panels so no repair line remains.",
+    climate:
+      "Dust, parking-lot heat and grit make Dubai a dent-producing city, while UV exposure means a badly matched panel will fade differently within a season — matching matters enormously here.",
+    protocol: [
+      "Damage classification — paintless removal, refinish, or panel repair",
+      "Paint depth measurement to confirm original factory finish before work",
+      "Paintless dent removal using leverage and glue-pulling techniques",
+      "Scratch refinement, priming and computerised colour matching where needed",
+      "Polishing, blending and inspection in direct sunlight before handover",
+    ],
+    inclusions: [
+      "Paintless dent removal wherever the paint film is intact",
+      "Preparation, priming and colour-matched refinishing for scratched panels",
+      "Blending into adjacent panels to eliminate visible repair lines",
+      "Clearcoat application with UV protection for Dubai conditions",
+      "Final machine polish and inspection under natural light",
+      "Workmanship warranty on all repairs completed",
+    ],
+    brandsNote:
+      "Paint depth and hardness vary significantly between German, Japanese and Italian finishes — technique and polishing compounds are selected accordingly to avoid thinning the clearcoat.",
+    priceFrom: 250,
+    labour: "Per-panel labour quoted after viewing the damage in person",
+    parts: "Paint materials and clearcoat included in the quoted panel price",
+    duration: "Same day for paintless removal · 1 to 3 days with refinishing",
+  },
+  {
+    slug: "bumper-repair-replacement",
+    name: "Bumper Repair / Replacement",
+    cat: "electrical",
+    short: "Bumper crack repair, sensor refit and colour-matched replacement.",
+    h1: "Bumper Repair & Replacement in Dubai — Fix Cracks Before They Spread",
+    intro:
+      "A cracked bumper is more than cosmetic — it hides parking sensors, radar units and cooling ducts that depend on correct alignment. We plastic-weld and refinish where possible, replace where necessary, and recalibrate sensors afterwards.",
+    climate:
+      "UAE heat makes bumper plastics brittle, so small impacts become full cracks, and UV exposure fades bumpers differently to the adjacent metal panels — colour matching must account for existing fade.",
+    protocol: [
+      "Damage assessment for crack depth, mounting damage and sensor condition",
+      "Removal, plastic welding and structural reinforcement of the bumper",
+      "Sand, prime, colour match and refinish in a dust-free booth",
+      "Parking sensor and radar unit refit with correct alignment",
+      "Sensor recalibration and final panel gap verification",
+    ],
+    inclusions: [
+      "Plastic welding and reinforcement or genuine replacement bumper",
+      "Colour-matched refinishing with UV-resistant clearcoat",
+      "Parking sensor and radar unit refitment and function testing",
+      "Sensor recalibration where the vehicle requires it",
+      "Grille, trim and undertray refitting with new clips where needed",
+      "Workmanship warranty and final road test",
+    ],
+    brandsNote:
+      "Bumpers carrying radar and camera units on Mercedes, BMW and Audi require recalibration after replacement — a step frequently skipped and one that disables driver assistance features.",
+    priceFrom: 450,
+    labour: "Bumper labour quoted after inspection for crack extent and sensor count",
+    parts: "Genuine bumper, sensors and clips itemised before ordering",
+    duration: "2 to 3 working days with refinishing",
+  },
+  {
+    slug: "headlight-taillight-replacement",
+    name: "Headlight & Taillight Replacement",
+    cat: "electrical",
+    short: "Lamp replacement, coding, lens restoration and LED retrofit installation.",
+    h1: "Headlight & Taillight Repair in Dubai — Coding, Restoration and Replacement",
+    intro:
+      "Modern headlights are electronic modules, not bulbs. Replacing one requires coding, and lens clarity matters enormously for night driving in Dubai. We replace, code, restore and align headlamps and taillamps, including adaptive and matrix LED systems.",
+    climate:
+      "UV exposure yellows polycarbonate lenses and cracks seals, letting fine dust inside the housing. Condensation and dust inside a headlamp cut light output dramatically — a genuine safety issue on unlit Dubai roads.",
+    protocol: [
+      "Lamp output, alignment and moisture-ingress inspection",
+      "Fault code scan for lamp module and adaptive lighting errors",
+      "Lens restoration, resealing or replacement as required",
+      "Correct coding and calibration for adaptive and matrix lighting",
+      "Headlamp beam alignment against manufacturer specification",
+    ],
+    inclusions: [
+      "Genuine or OEM-equivalent lamp unit supply for your vehicle specification",
+      "Module coding and adaptation for adaptive or matrix headlights",
+      "Lens restoration and resealing where replacement is unnecessary",
+      "Corner and levelling sensor function verification",
+      "Beam pattern alignment to specification",
+      "Warranty on lamp units and workmanship",
+    ],
+    brandsNote:
+      "Adaptive and matrix LED systems on Audi, BMW, Mercedes and Porsche require brand-specific calibration equipment and cannot simply be swapped without coding.",
+    priceFrom: 550,
+    labour: "Labour from AED 250 including coding where required",
+    parts: "Lamp units priced by part number — LED and matrix units cost significantly more than halogen",
+    duration: "Same day to 1 working day",
+  },
+  {
+    slug: "paint-services",
+    name: "Paint Services",
+    cat: "electrical",
+    hub: true,
+    short: "Full respray, panel painting, custom paint and scratch refinishing.",
+    h1: "Car Painting Services in Dubai — Dust-Free Booth, Computerised Colour Matching",
+    intro:
+      "We paint in a proper dust-free booth with computerised colour matching and measured film thickness. Whether it is a single panel or a full respray, the result is a finish that reads correctly in Dubai's unforgiving sunlight with no visible blend line.",
+    climate:
+      "A paint job in the UAE must survive relentless UV, airborne sand and 50°C surface temperatures. Correct primer systems, UV-stable clearcoats and adequate film thickness are what stop it fading, peeling or chalking.",
+    protocol: [
+      "Vehicle inspection, colour code retrieval and paint depth measurement",
+      "Panel preparation, sanding, priming and sealing of repaired areas",
+      "Computerised colour matching with spray-out test panels verified in daylight",
+      "Booth application of basecoat and UV-stable clearcoat with controlled curing",
+      "Film thickness measurement, polishing and final inspection under natural light",
+    ],
+    inclusions: [
+      "Full surface preparation, priming and sealing before paint",
+      "Computerised colour matching verified on a spray-out panel",
+      "UV-stable clearcoat applied and cured in a dust-free booth",
+      "Trim, glass and rubber masking with correct removal and refit",
+      "Film thickness measurement recorded for your vehicle",
+      "Polishing, quality inspection and a written workmanship warranty",
+    ],
+    brandsNote:
+      "Tri-coat pearl and matte finishes used by Mercedes, Porsche and BMW require exact formulation and separate application steps — a single-stage match will not reproduce them.",
+    priceFrom: 700,
+    labour: "Per-panel labour quoted after inspection of the panel and surrounding fade",
+    parts: "Paint materials, primers and clearcoat included in the panel price",
+    duration: "2 to 5 working days per panel set",
+  },
+
+  /* ---------------------------------------------------------------- SUSPENSION */
+  {
+    slug: "suspension-services",
+    name: "Suspension Services",
+    cat: "electrical",
+    hub: true,
+    short: "Shock absorbers, air suspension, bushings and complete suspension overhaul.",
+    h1: "Car Suspension Repair in Dubai — Comfort and Control Restored",
+    intro:
+      "Dubai roads are smooth, but speed humps, kerbs and 50°C heat still destroy suspension. We repair conventional and air suspension systems — shocks, springs, bushings, control arms, links and air struts — restoring the ride quality and stability the manufacturer designed in.",
+    climate:
+      "Heat melts the rubber in suspension bushings and dries out air suspension seals, causing sagging and compressor failure. Failing air struts on Land Rover, Mercedes and Porsche are among our most common Dubai repairs.",
+    protocol: [
+      "Road test assessing ride, rebound, noise and steering feel",
+      "Lift inspection of shocks, springs, bushings, control arms and links",
+      "Air suspension system leak testing and compressor output measurement",
+      "Ball joint and tie rod play measurement with specification comparison",
+      "Four-wheel alignment reading before and after the repair",
+    ],
+    inclusions: [
+      "Genuine or OEM-equivalent shocks, struts, bushings and arms as diagnosed",
+      "Air suspension compressor, valve block and strut repair where applicable",
+      "Correct spring compression tooling and manufacturer torque procedures",
+      "Four-wheel alignment after suspension work",
+      "Road test verification of ride, tracking and braking stability",
+      "Parts warranty with photographic documentation of worn components",
+    ],
+    brandsNote:
+      "Air suspension is standard on many Porsche, Land Rover, Mercedes and Audi models and must be depressurised and recalibrated properly — conventional Japanese and American systems use simpler but no less precise procedures.",
+    priceFrom: 850,
+    labour: "Labour quoted per corner once the worn components are identified",
+    parts: "Shock, strut, bushing and compressor pricing itemised by part number",
+    duration: "1 to 3 working days",
+  },
+  {
+    slug: "wheel-balancing",
+    name: "Wheel Balancing",
+    cat: "electrical",
+    short: "Computerised wheel balancing to eliminate vibration at speed.",
+    h1: "Wheel Balancing in Dubai — Eliminate Vibration at Highway Speed",
+    intro:
+      "Vibration through the steering wheel at 100 km/h is almost always a balancing issue. We balance all four wheels on a computerised machine with road-force evaluation available, correcting both static and dynamic imbalance properly.",
+    climate:
+      "Heat softens tyre compounds and weight adhesive, and dust collects inside rims — both common causes of vibration developing between services in Dubai.",
+    protocol: [
+      "Road test to characterise the vibration and confirm its speed range",
+      "Wheel removal and inspection for rim damage, dents and tyre defects",
+      "Computerised dynamic balancing with weight placement marking",
+      "Road-force evaluation where vibration persists after standard balancing",
+      "Tyre pressure setting and torque of wheel bolts to specification",
+    ],
+    inclusions: [
+      "Computerised dynamic balancing of all four wheels",
+      "Wheel weight application with correct adhesive for UAE temperatures",
+      "Rim and tyre inspection for damage and internal dust accumulation",
+      "Tyre pressure set to the manufacturer placard value",
+      "Wheel nut torque applied with a calibrated wrench",
+      "Follow-up road test to confirm vibration is removed",
+    ],
+    brandsNote:
+      "Large-diameter low-profile wheels on Porsche, Ferrari and BMW need precise balancing that accounts for tyre uniformity, and centre-lock wheels require specific tooling and torque.",
+    priceFrom: 120,
+    labour: "Balancing labour from AED 100 for four wheels",
+    parts: "Weights and valve stems included; tyre or rim replacement quoted separately",
+    duration: "45 minutes",
+  },
+  {
+    slug: "suspension-alignment",
+    name: "Suspension Alignment",
+    cat: "electrical",
+    short: "Computerised four-wheel alignment and steering angle calibration.",
+    h1: "Wheel Alignment in Dubai — Computerised Four-Wheel Alignment & Steering Calibration",
+    intro:
+      "Alignment protects your tyres, your fuel economy and your stability at speed. We measure camber, caster and toe on all four wheels with a computerised system, adjust to manufacturer specification, and recalibrate steering angle sensors afterwards.",
+    climate:
+      "High ambient heat and dust accelerate tyre wear, and misalignment that adds a few degrees of toe wear in Dubai's heat can destroy a set of performance tyres in a few thousand kilometres.",
+    protocol: [
+      "Pre-alignment inspection of tyres, pressures and suspension components",
+      "Computerised measurement of camber, caster, toe and thrust angle",
+      "Adjustment to manufacturer specification within tolerance bands",
+      "Steering angle sensor and driver assistance recalibration where required",
+      "Post-alignment road test with a printed before-and-after report",
+    ],
+    inclusions: [
+      "Four-wheel computerised alignment measurement and adjustment",
+      "Printed before-and-after alignment report",
+      "Tyre pressure correction and tread depth assessment",
+      "Suspension and steering component inspection",
+      "Steering angle sensor recalibration where the vehicle requires it",
+      "Road test verification of straight-line stability",
+    ],
+    brandsNote:
+      "Vehicles with adaptive suspension, lane-keeping and rear-steer systems — common across Porsche, Mercedes, BMW and Land Rover — require sensor recalibration after alignment to keep assistance systems accurate.",
+    priceFrom: 250,
+    labour: "Alignment labour from AED 250 including report",
+    parts: "No parts included; tyres and suspension components quoted separately",
+    duration: "60 to 90 minutes",
+  },
+  {
+    slug: "performance-suspension-upgrade",
+    name: "Performance Suspension Upgrade",
+    cat: "electrical",
+    short: "Coilovers, springs and sway bar upgrades with geometry setup.",
+    h1: "Performance Suspension Upgrade in Dubai — Handling Without Losing Comfort",
+    intro:
+      "An upgrade should improve body control without turning a Dubai daily driver into an uncomfortable track car. We select and fit coilovers, springs, sway bars and bushings as a matched package, then set geometry for the balance you actually want.",
+    climate:
+      "UAE roads and heat punish cheap suspension hardware. We select components with heat-tolerant bushings and proven damping reliability rather than the cheapest kit available.",
+    protocol: [
+      "Consultation on intended use — daily comfort, fast road or track bias",
+      "Component selection matched to vehicle weight and wheel specification",
+      "Corner-weight and ride-height setup with proper spring preload",
+      "Geometry setup for camber, caster and toe suited to your usage",
+      "Road and handling validation with damper adjustment tuning",
+    ],
+    inclusions: [
+      "Matched coilover, spring, sway bar and bushing package for your vehicle",
+      "Professional installation to manufacturer torque specification",
+      "Ride height and corner-weight optimisation",
+      "Full four-wheel geometry setup after installation",
+      "Damper and rebound adjustment tuning session",
+      "Road test validation with a written setup summary",
+    ],
+    brandsNote:
+      "Adaptive and air suspension equipped vehicles — many Porsche, Mercedes and BMW models — require electronic module handling or cancellation kits, which we fit correctly rather than leaving warning lights on.",
+    priceFrom: 2200,
+    labour: "Installation labour from AED 1,200 including geometry setup",
+    parts: "Hardware package priced per kit — quality components cost more but last in UAE conditions",
+    duration: "1 to 2 working days",
+  },
+];

@@ -1,0 +1,620 @@
+export const mechanicalServices = [
+  /* ---------------------------------------------------------------- MAINTENANCE */
+  {
+    slug: "maintenance-repair",
+    name: "Maintenance & Repair",
+    cat: "mechanical",
+    hub: true,
+    short: "Dealer-grade periodic maintenance and mechanical repair for luxury, American, German, British and Italian vehicles.",
+    h1: "Car Maintenance & Repair in Dubai — Dealer-Grade Servicing Without Dealer Prices",
+    intro:
+      "The Gearbox Auto Services is Dubai's dealership alternative for scheduled maintenance and mechanical repair. Our technicians follow manufacturer service schedules to the letter using genuine or OEM-approved parts, then send you a transparent video inspection and itemised estimate on WhatsApp before a single part is ordered.",
+    climate:
+      "Dubai's 50°C summers and Sheikh Zayed Road stop-start traffic shorten every service interval. Engine oil shears down faster, coolant loses its corrosion package, and fine desert dust loads the air filter long before the kilometre interval is due — so we service on condition, not just on distance.",
+    protocol: [
+      "Full vehicle health scan with dealer-level diagnostic software and fault-code history read-out",
+      "Oil, coolant, brake fluid, transmission fluid and power-steering condition testing",
+      "Brake pad and disc measurement, suspension and bush inspection, tyre tread and pressure check",
+      "Battery load, alternator charging and parasitic drain testing",
+      "Itemised digital estimate issued with a WhatsApp video walkthrough of every finding",
+    ],
+    inclusions: [
+      "Engine oil and oil filter replacement with genuine or OEM-approved parts",
+      "Multi-point vehicle health report covering 150 checkpoints",
+      "Video inspection recorded and sent directly to your WhatsApp",
+      "Fluid top-ups and reset of the onboard service indicator",
+      "Workshop-clean interior and complimentary vehicle sanitising",
+      "Post-service road test and quality-control sign-off",
+    ],
+    brandsNote:
+      "German platforms (Mercedes-Benz, BMW, Audi, Porsche) require CBS/iDrive service resets and specific long-life oil specifications, while American and Japanese vehicles run shorter conventional intervals — we hold the correct approvals, viscosities and reset tools for each.",
+    priceFrom: 349,
+    labour: "Labour from AED 180 depending on engine configuration",
+    parts: "Genuine or OEM-equivalent oil and filters quoted transparently before ordering",
+    duration: "Same day — typically 3 to 5 hours",
+  },
+  {
+    slug: "major-minor-service",
+    name: "Major & Minor Service",
+    cat: "mechanical",
+    short: "Full minor and major periodic servicing built around manufacturer schedules and Dubai's climate.",
+    h1: "Major & Minor Car Service in Dubai — Manufacturer Schedules, Dealership Quality",
+    intro:
+      "A minor service keeps your vehicle protected between intervals; a major service restores the parts that Dubai heat quietly destroys. We build both around your manufacturer's schedule and your real driving conditions, then document everything so your service history stays complete and credible.",
+    climate:
+      "Desert dust, humidity and 50°C ambient temperatures degrade belts, hoses, filters and fluids far faster than European service books assume. Major services in the UAE must include cooling-system and AC checks that other markets skip.",
+    protocol: [
+      "Service history review and manufacturer schedule mapping for your exact model and mileage",
+      "Oil and filter service with correct viscosity approval for UAE ambient conditions",
+      "Air, cabin, fuel and AC filter inspection and replacement where due",
+      "Cooling system pressure test, belt and hose condition assessment",
+      "Brake, suspension, battery and fluid assessment with written findings",
+    ],
+    inclusions: [
+      "Engine oil and filter, plus cabin and air filter replacement where due",
+      "Cooling system inspection and coolant top-up",
+      "Brake inspection with pad thickness measurement recorded",
+      "Battery and charging system test",
+      "Onboard service indicator reset and digital service record entry",
+      "Complimentary car wash and vehicle sanitising on completion",
+    ],
+    brandsNote:
+      "Major service scope differs sharply across marques: Porsche and BMW require specific long-life fluids and differential checks, while Jeep, Dodge and Ford trucks need transfer-case and heavy-duty cooling attention.",
+    priceFrom: 549,
+    labour: "Labour from AED 250 — major service depends on cylinder count and access",
+    parts: "Filter and fluid kit priced per model before approval",
+    duration: "Minor service same day · Major service 1 working day",
+  },
+  {
+    slug: "20000-40000-60000-service",
+    name: "20k, 40k & 60k Service",
+    cat: "mechanical",
+    short: "Interval servicing at 20,000, 40,000 and 60,000 KM with manufacturer-specified parts.",
+    h1: "20,000 / 40,000 / 60,000 KM Car Service in Dubai",
+    intro:
+      "Interval services at 20k, 40k and 60k kilometres are where dealership invoices climb fastest — and where independent workshops most often cut corners. We follow the manufacturer's own schedule for your kilometre band, document every part number, and keep your warranty fully intact under UAE law.",
+    climate:
+      "By 40,000 KM in Dubai, cabin filters are typically choked with fine dust and gearbox fluid has already been heat-cycled far beyond its design assumptions. Serving on the UAE cycle rather than the European cycle protects the vehicle properly.",
+    protocol: [
+      "Manufacturer interval sheet pulled for your VIN and kilometre band",
+      "Full fluid condition assessment: engine, transmission, coolant, brake and differential",
+      "Filter bank replacement — oil, air, cabin, fuel and AC as specified",
+      "Brake fluid moisture test and spark plug condition check where applicable",
+      "Diagnostic scan with all stored and pending fault codes reported",
+    ],
+    inclusions: [
+      "All manufacturer-specified parts and fluids for your kilometre band",
+      "Brake fluid and coolant condition testing",
+      "Gearbox and differential fluid level and condition inspection",
+      "Full diagnostic scan report",
+      "Service indicator reset and stamped digital service history",
+      "Free pickup and delivery upon approved estimate anywhere in Dubai",
+    ],
+    brandsNote:
+      "We hold interval data for German, British, Italian, American and Japanese marques — including the shorter UAE-recommended intervals Audi, Mercedes and Land Rover require in hot climates.",
+    priceFrom: 899,
+    labour: "Labour from AED 450 including all interval checks",
+    parts: "Interval parts kit quoted line by line with OEM part numbers",
+    duration: "1 working day",
+  },
+  {
+    slug: "80000-100000-service",
+    name: "80k & 100k Service",
+    cat: "mechanical",
+    short: "High-mileage servicing including timing, cooling and transmission major works.",
+    h1: "80,000 & 100,000 KM Major Car Service in Dubai — High-Mileage Specialists",
+    intro:
+      "The 80k and 100k services are the milestone services that decide whether a luxury car stays healthy or starts costing real money. This is where timing components, water pumps, transmission fluid and suspension bushings are inspected and replaced before they fail — the exact work dealerships quote at their highest markup.",
+    climate:
+      "At 100,000 KM in the UAE, rubber components have endured years of 50°C heat cycles. Timing belts, water pumps, engine mounts and control-arm bushings degrade from heat and ozone long before they reach their kilometre limit.",
+    protocol: [
+      "Complete major-service scope plus timing and accessory drive component inspection",
+      "Water pump, thermostat and cooling hose condition assessment under pressure",
+      "Transmission fluid and filter service where the manufacturer specifies it",
+      "Suspension bushing, control arm, engine mount and driveline inspection",
+      "Compression or cylinder balance check on higher-mileage engines",
+    ],
+    inclusions: [
+      "All major service items for the interval including filters and fluids",
+      "Timing belt or chain component inspection report",
+      "Cooling system pressure and thermostat performance test",
+      "Suspension and driveline wear assessment with photographs",
+      "Brake system overhaul check with disc thickness measurements",
+      "Written prioritised estimate separating urgent from future work",
+    ],
+    brandsNote:
+      "Mercedes-Benz and BMW 100k services typically include transmission fluid service that many UAE garages skip entirely; Land Rover and Porsche require specific coolant and differential attention at this mileage.",
+    priceFrom: 1450,
+    labour: "Labour from AED 750 — timing and transmission work quoted separately once inspected",
+    parts: "Milestone parts kit quoted against OEM part numbers on your estimate",
+    duration: "1 to 2 working days",
+  },
+  {
+    slug: "brakes-ac-inspection",
+    name: "Brakes & AC Inspection",
+    cat: "mechanical",
+    short: "Combined brake safety inspection and air-conditioning performance check.",
+    h1: "Brake & AC Inspection in Dubai — Safety and Cooling Checked Together",
+    intro:
+      "Brakes and air conditioning are the two systems Dubai driving punishes hardest, and they fail quietly. This combined inspection measures your braking performance and your AC's actual vent temperature and pressures, so you know exactly what state both systems are in before summer or a long drive.",
+    climate:
+      "A Dubai AC that blows 'cold enough' in January is often 8°C warmer by July. Brake fluid absorbs moisture from humid coastal air and drops its boiling point — dangerous in Sheikh Zayed Road traffic.",
+    protocol: [
+      "Brake pad and disc thickness measurement on all four corners",
+      "Brake fluid moisture content test and boiling point assessment",
+      "Caliper, hose and ABS sensor visual inspection for leaks and heat damage",
+      "AC vent temperature measurement at idle and at speed",
+      "Refrigerant high and low side pressure test against manufacturer specification",
+    ],
+    inclusions: [
+      "Written brake wear report with pad and disc measurements in millimetres",
+      "Brake fluid moisture percentage reading",
+      "AC vent temperature and refrigerant pressure report",
+      "Cabin filter and evaporator condition assessment",
+      "Photographic evidence of any abnormality found",
+      "No-obligation itemised estimate for any recommended repair",
+    ],
+    brandsNote:
+      "High-performance brakes on Porsche, Ferrari and McLaren use specific pad compounds and require bedding-in procedures; AC systems on German marques need manufacturer-specific refrigerant charges measured by weight, not guessed.",
+    priceFrom: 299,
+    labour: "Inspection labour from AED 150 credited against any repair approved",
+    parts: "Pad, disc and refrigerant pricing confirmed before any replacement",
+    duration: "2 to 3 hours",
+  },
+
+  /* ---------------------------------------------------------------- TRANSMISSION */
+  {
+    slug: "transmission-gearbox",
+    name: "Transmission / Gearbox",
+    cat: "mechanical",
+    hub: true,
+    short: "Dubai's transmission specialists — diagnostics, repair, rebuild, replacement and fluid service.",
+    h1: "Transmission & Gearbox Repair in Dubai — Specialists for Automatic, DSG, CVT and DCT",
+    intro:
+      "Transmission work is what The Gearbox was built around. We diagnose, repair, rebuild and replace automatic, DSG, CVT, DCT and torque-converter gearboxes for luxury and American vehicles, using dealer-level diagnostics to find the true fault instead of replacing parts by guesswork.",
+    climate:
+      "This is the single biggest cause of Dubai gearbox failure: crawling traffic on Sheikh Zayed Road in 48°C heat, with the torque converter slipping and the cooler doing its best against a 50°C ambient. Fluid oxidises, clutch packs glaze, and the mechatronic unit overheats — often with no warning light until it is already damaged.",
+    protocol: [
+      "Dealer-level diagnostic scan with transmission control module live data capture",
+      "Fluid level, colour, contamination and metal-content assessment",
+      "Road test with adaptation values and shift-pressure data logging",
+      "Mechatronic, solenoid and valve body electrical testing",
+      "Internal inspection and strip-down on the bench only where data supports it",
+    ],
+    inclusions: [
+      "Full transmission diagnostic report with live-data explanation",
+      "Road test with shift quality and adaptation assessment",
+      "Transparent explanation of repair, rebuild and replacement options with prices",
+      "Genuine or OEM-equivalent component sourcing",
+      "Warranty on all parts fitted",
+      "Free pickup and delivery upon approved estimate across Dubai",
+    ],
+    brandsNote:
+      "ZF 8HP units in BMW, Audi and Jaguar behave differently to Mercedes 7G/9G-Tronic, Dodge RAM automatics and CVTs in Japanese platforms — adaptation resets, fluid specifications and fill procedures are brand-specific and we follow them exactly.",
+    priceFrom: 750,
+    labour: "Diagnostic from AED 750 · repair and rebuild labour quoted on findings",
+    parts: "Clutch packs, solenoids, mechatronic units and converters quoted by part number",
+    duration: "Diagnostics 1 day · repair 2–4 days · rebuild 4–7 days",
+  },
+  {
+    slug: "transmission-repair",
+    name: "Transmission Repair",
+    cat: "mechanical",
+    short: "Targeted transmission repair for solenoid, valve body, mechatronic and clutch faults.",
+    h1: "Transmission Repair in Dubai — Targeted Repair, Not Parts Guessing",
+    intro:
+      "Most transmission faults are specific and repairable: a sticking solenoid, a contaminated valve body, a failing mechatronic seal, a cracked cooler line. Our transmission repair service fixes the actual failure with genuine components — a fraction of the cost of the full replacement a dealership will usually quote.",
+    climate:
+      "Heat degrades transmission seals and solenoids first. In Dubai, low-grade fluid and skipped fluid services let varnish build in the valve body, causing harsh shifts that owners mistake for a terminal gearbox failure.",
+    protocol: [
+      "Fault code and adaptation data analysis before any removal",
+      "Hydraulic pressure testing at the valve body test points",
+      "Solenoid resistance and response testing with the unit in place where possible",
+      "Contamination and metal particle analysis of the drained fluid",
+      "Post-repair adaptive relearn and extended road test verification",
+    ],
+    inclusions: [
+      "Targeted repair of the confirmed faulty component, not a shotgun replacement",
+      "Genuine or OEM-equivalent solenoids, seals, sensors and valve body components",
+      "New transmission fluid and filter as part of the repair",
+      "Adaptive values reset and relearn procedure",
+      "Post-repair road test and shift quality verification report",
+      "Warranty on all parts fitted",
+    ],
+    brandsNote:
+      "DSG and DCT repairs on Audi, Volkswagen and Porsche require clutch adaptation and mechatronic calibration, while American automatics and Japanese CVTs follow different pressure and relearn procedures.",
+    priceFrom: 1850,
+    labour: "Labour from AED 900 depending on whether the unit requires removal",
+    parts: "Solenoid, sensor and valve body pricing confirmed on your itemised estimate",
+    duration: "2 to 4 working days",
+  },
+  {
+    slug: "transmission-rebuild",
+    name: "Transmission Rebuild",
+    cat: "mechanical",
+    short: "Complete transmission rebuild with clutch packs, seals, bearings and converter service.",
+    h1: "Transmission Rebuild in Dubai — Complete Gearbox Overhaul to Factory Specification",
+    intro:
+      "When a transmission is internally worn, a rebuild restores it to factory specification rather than replacing it. Every unit is stripped, cleaned, measured and reassembled on our transmission bench with new clutch packs, seals, bearings and updated components, then bench-tested and road-tested before it goes back in your car.",
+    climate:
+      "Heat-glazed clutch packs and hardened seals are the hallmark of a Dubai transmission. A rebuild with updated high-temperature friction materials and modern fluid specification prevents the same failure returning next summer.",
+    protocol: [
+      "Complete strip-down on the transmission bench with component measurement log",
+      "Valve body cleaning and solenoid function testing",
+      "Torque converter inspection, cutting and rebuild or replacement",
+      "Clutch pack, seal, bearing and bushing replacement with updated parts",
+      "Bench test, refit, adaptive relearn, extended road test and final quality sign-off",
+    ],
+    inclusions: [
+      "Complete teardown and rebuild on our own transmission bench",
+      "New clutch packs, seals, gaskets, bearings and bushings",
+      "Valve body clean and service with new solenoids where required",
+      "Torque converter rebuild or replacement",
+      "Fresh manufacturer-specification transmission fluid and filter",
+      "Extended road test, adaptation relearn and parts warranty",
+    ],
+    brandsNote:
+      "We rebuild ZF, Mercedes 7G/9G-Tronic, Aisin, GM and Dodge units in-house. Rebuild kits and upgrade components are selected per platform to address that family's known Dubai heat failure mode.",
+    priceFrom: 6500,
+    labour: "Rebuild labour from AED 3,200 — final scope confirmed after strip-down",
+    parts: "Rebuild kit, converter and solenoids itemised before approval",
+    duration: "4 to 7 working days",
+  },
+  {
+    slug: "transmission-replacement",
+    name: "Transmission Replacement",
+    cat: "mechanical",
+    short: "Supply, fit and code of reconditioned or new replacement transmissions.",
+    h1: "Transmission Replacement in Dubai — Reconditioned and New Gearbox Supply & Fitting",
+    intro:
+      "Where a rebuild is not the economical answer, we source, fit and code a replacement transmission — reconditioned to factory specification or new where available. Every unit is code-matched to your vehicle's control module, adaptation values are reset, and the car leaves with correct shift quality, not just a gearbox that physically fits.",
+    climate:
+      "Replacement units in Dubai must be specified with the correct cooler and fluid package. Fitting a gearbox without addressing the cooler or contamination that killed the original simply guarantees a repeat failure.",
+    protocol: [
+      "Transmission identity and part number confirmed by VIN",
+      "Cooler circuit flushing and contamination removal before fitment",
+      "Replacement unit supplied, fitted and mechanically aligned",
+      "Software coding, immobiliser matching and adaptive relearn",
+      "Extended road test with live shift-pressure verification",
+    ],
+    inclusions: [
+      "Reconditioned or new transmission matched to your VIN specification",
+      "Transmission cooler and line flushing to prevent contamination transfer",
+      "New fluid, filter, pan gasket and mounting hardware",
+      "ECU coding and adaptive value relearn",
+      "Road test verification with documentation",
+      "Warranty on the supplied unit",
+    ],
+    brandsNote:
+      "Replacement availability and coding procedures differ between ZF-based German platforms, GM and Dodge automatics, Land Rover units and Japanese CVTs — we confirm the correct unit and coding path before ordering.",
+    priceFrom: 9500,
+    labour: "Labour from AED 2,400 including coding and relearn",
+    parts: "Replacement unit price confirmed in writing before order",
+    duration: "3 to 6 working days depending on unit availability",
+  },
+  {
+    slug: "transmission-oil-filter",
+    name: "Transmission Oil & Filter",
+    cat: "mechanical",
+    short: "Transmission fluid and filter service using manufacturer-specified fluid.",
+    h1: "Transmission Oil & Filter Change in Dubai — Prevent Gearbox Failure Before It Starts",
+    intro:
+      "The single cheapest protection for a Dubai gearbox is a correct transmission fluid and filter service. We drain, flush and refill with the exact manufacturer-specified fluid — measured, temperature-corrected and filled using the correct procedure, not estimated by volume.",
+    climate:
+      "Transmission fluid in the UAE lives in a 100°C-plus environment for hours at a time. It oxidises, loses friction modifiers and starts varnishing the valve body — which is why UAE driving conditions justify fluid services well before the European intervals.",
+    protocol: [
+      "Fluid level and temperature check using the manufacturer fill procedure",
+      "Fluid condition assessment for colour, burn smell, varnish and metal content",
+      "Pan removal, filter and gasket replacement where specified",
+      "Torque-converter and cooler circuit drain",
+      "Refill with correct specification fluid followed by adaptive relearn and road test",
+    ],
+    inclusions: [
+      "Manufacturer-specified transmission fluid measured and filled correctly",
+      "New transmission filter, pan gasket and drain plug seal where applicable",
+      "Magnet and pan cleaning with debris inspection report",
+      "Adaptive values reset and shift quality verification",
+      "Fluid leak check and final level confirmation at operating temperature",
+      "Warranty on all parts fitted with complimentary car wash",
+    ],
+    brandsNote:
+      "ZF 8HP, Mercedes 9G-Tronic, DSG and CVT platforms all use different fluids and fill procedures that cannot be interchanged. Using the wrong fluid is the most common cause of gearbox failure after a service elsewhere.",
+    priceFrom: 950,
+    labour: "Labour from AED 400 depending on pan and filter access",
+    parts: "Genuine fluid and filter priced per litre after fluid specification confirmation",
+    duration: "3 to 4 hours",
+  },
+
+  /* ---------------------------------------------------------------- ENGINE */
+  {
+    slug: "engine-repair",
+    name: "Engine Repair",
+    cat: "mechanical",
+    short: "Engine diagnostics, oil leak repair, timing, head gasket and mechanical overhaul.",
+    h1: "Engine Repair in Dubai — Diagnostics First, Repair Second, Guesswork Never",
+    intro:
+      "Engine faults in Dubai are usually misdiagnosed as terminal when they are specific and repairable: leaking covers, failing coil packs, stretched timing chains, blocked breathers, heat-damaged head gaskets. We diagnose with live data and compression testing before we touch a bolt.",
+    climate:
+      "50°C under-bonnet temperatures cook seals, plastic covers and wiring insulation. Overheating in traffic warps heads and blows gaskets — and engine bay thermal degradation is the number one reason Dubai luxury cars develop oil leaks.",
+    protocol: [
+      "Dealer-level ECU scan with live sensor data and misfire counter analysis",
+      "Compression and cylinder leakage testing where mechanical faults are suspected",
+      "Cooling system pressure test and combustion gas detection in the coolant",
+      "Oil leak tracing with UV dye and full under-vehicle inspection",
+      "Dismantling and inspection only after the diagnostic report is explained to you",
+    ],
+    inclusions: [
+      "Complete engine diagnostic report with live data interpretation",
+      "Compression and leak-down testing documented per cylinder",
+      "Genuine or OEM-equivalent gaskets, seals, sensors and components",
+      "Correct manufacturer torque sequences and fastener specifications",
+      "Fluids, filters and software adaptions completed as part of the repair",
+      "Parts warranty plus a documented post-repair road test",
+    ],
+    brandsNote:
+      "BMW N-series and Mercedes M-series engines have specific timing, breather and injector-seal failure patterns; American V8s and HEMI units need different cooling and lubrication attention; Porsche and Ferrari flat-six and V8 units follow their own torque and thermal procedures.",
+    priceFrom: 850,
+    labour: "Diagnostic from AED 750 · repair labour quoted per scope on findings",
+    parts: "Gaskets, seals and components quoted with OEM part numbers",
+    duration: "Diagnosis 1 day · repair 2 to 6 working days",
+  },
+  {
+    slug: "complete-engine-rebuild",
+    name: "Complete Engine Rebuild",
+    cat: "mechanical",
+    short: "Full engine overhaul with machining, new internals and factory-specification reassembly.",
+    h1: "Complete Engine Rebuild in Dubai — Full Overhaul to Factory Specification",
+    intro:
+      "A complete engine rebuild restores a worn, overheated or oil-starved engine to factory specification. Blocks are measured and machined, cranks and rods are reconditioned, and every clearance is checked against manufacturer tolerances before assembly. This is the work that separates a real engineering workshop from a parts fitter.",
+    climate:
+      "Overheating in Dubai traffic warps heads and scores bores; sand ingress past a poor-quality filter accelerates ring and bearing wear. Rebuilds here must be built for a hotter, dustier duty cycle than the original design assumed.",
+    protocol: [
+      "Complete strip-down with component measuring and photographic documentation",
+      "Block and head machining — decking, honing, valve seat and guide reconditioning",
+      "Crank grinding and balancing, rod reconditioning and new bearings",
+      "Turbocharger, oil pump and cooling component assessment during assembly",
+      "Controlled assembly to factory torque sequences with a full running-in schedule",
+    ],
+    inclusions: [
+      "Complete engine removal, strip-down, machining and reassembly in-house",
+      "New pistons, rings, bearings, gaskets, seals and timing components where required",
+      "Cylinder head reconditioning with valve guides and seats renewed",
+      "New oil pump, water pump and thermostat as part of the rebuild",
+      "Fresh oil, filters, coolant and software adaptation on completion",
+      "Documented break-in guidance, road test and parts warranty",
+    ],
+    brandsNote:
+      "Rebuilds range from classic Mercedes and BMW straight-six units to American V8s, Land Rover V8s and Porsche flat-six engines — each with its own machining limits, fastener torque values and running-in requirements.",
+    priceFrom: 12500,
+    labour: "Rebuild labour from AED 6,500 — final scope set by the strip-down report",
+    parts: "Machining, pistons, rings, gaskets and timing kit itemised before approval",
+    duration: "2 to 3 weeks",
+  },
+  {
+    slug: "engine-noise-repair",
+    name: "Engine Noise Repair",
+    cat: "mechanical",
+    short: "Diagnosis and repair of knocking, ticking, lifter and bearing noise.",
+    h1: "Engine Noise Repair in Dubai — Find the Source, Fix the Cause",
+    intro:
+      "A new noise under the bonnet is information, not a disaster. Ticking lifters, cold-start rattle, timing chain slap, belt squeal and rod knock each have distinct causes and very different costs — our job is to identify the exact source with instruments and data before anything is replaced.",
+    climate:
+      "Dubai's heat thins oil at idle and degrades plastic timing guides and tensioners, producing chain rattle and lifter tick that owners first notice on a hot start after a day in the sun.",
+    protocol: [
+      "Mechanic's stethoscope and chassis-ear localisation of the noise source",
+      "Oil pressure test at idle and under load with manufacturer comparison",
+      "Timing chain stretch measurement and tensioner assessment where applicable",
+      "Cold-start and hot-start comparison recordings for diagnosis",
+      "Strip-down of the confirmed area only, with findings documented photographically",
+    ],
+    inclusions: [
+      "Documented diagnosis identifying the exact noise source",
+      "Oil pressure and timing measurements compared against specification",
+      "Genuine or OEM-equivalent lifters, tensioners, guides or bearings as required",
+      "Gasket and seal replacement in the affected area",
+      "Correct oil specification and filter fitted on reassembly",
+      "Road test verification with parts warranty",
+    ],
+    brandsNote:
+      "BMW and Mini timing chain rattle, Mercedes hydraulic lifter tick, Porsche IMS and cam noise, and American V8 exhaust-manifold tick are all distinct faults with known, documented repair paths.",
+    priceFrom: 690,
+    labour: "Diagnostic from AED 550 including pressure and timing checks",
+    parts: "Components quoted once the source is confirmed, never before",
+    duration: "Diagnosis same day · repair 1 to 3 working days",
+  },
+  {
+    slug: "engine-tuning",
+    name: "Engine Tuning",
+    cat: "mechanical",
+    short: "ECU remapping, throttle response, performance tuning and post-repair calibration.",
+    h1: "Engine Tuning & ECU Remapping in Dubai — Safe, Measured Performance",
+    intro:
+      "Engine tuning in Dubai must respect 50°C ambient temperatures and lower-grade fuel reality. We optimise ignition, fuelling and boost maps with live data logging, keeping thermal headroom intact so extra performance does not come at the cost of reliability.",
+    climate:
+      "An aggressive off-the-shelf map that survives a European winter will detonate here in August. We log intake temperatures, knock retard and fuel trims before and after every tune to keep the engine safe in UAE conditions.",
+    protocol: [
+      "Baseline data logging — boost, fuelling, ignition timing and knock retard",
+      "ECU identification and original map backup before any modification",
+      "Custom map development with iterative road data logging",
+      "Thermal validation at high ambient temperature and sustained load",
+      "Post-tune fault code scan, adaptation check and report handover",
+    ],
+    inclusions: [
+      "Before-and-after data logging report on the same road section",
+      "Custom map written for UAE fuel and ambient conditions",
+      "Original manufacturer map retained and backed up",
+      "Fault code scan and adaptation verification",
+      "Throttle response, idle quality and drivability check",
+      "Dyno-informed targets with no over-stressed components",
+    ],
+    brandsNote:
+      "Turbocharged German platforms respond well to stage-one mapping, while naturally aspirated Ferrari, Lamborghini and Porsche engines gain most from intake, exhaust and calibration refinement rather than boost increases.",
+    priceFrom: 1850,
+    labour: "Calibration labour from AED 1,200 including data logging sessions",
+    parts: "Hardware upgrades such as intakes or intercoolers quoted separately",
+    duration: "1 working day including validation drive",
+  },
+
+  /* ---------------------------------------------------------------- OIL & FLUIDS */
+  {
+    slug: "premium-oil-services",
+    name: "Premium Oil Services",
+    cat: "mechanical",
+    hub: true,
+    short: "Full-synthetic oil servicing with genuine filters and manufacturer approvals.",
+    h1: "Premium Oil Service in Dubai — Full Synthetic Oil with Genuine Filters",
+    intro:
+      "Oil is the cheapest component you will ever fit to a luxury engine and the most expensive one to get wrong. We use full-synthetic oils carrying the exact manufacturer approval for your engine — MB 229.5, BMW LL-04, VW 504.00, Porsche A40 and more — never a generic 'long-life' substitute.",
+    climate:
+      "At 50°C ambient, a thin or non-approved oil loses film strength at exactly the moment the engine needs it most. Correct viscosity plus genuine filter media is what keeps Dubai engines alive past 200,000 KM.",
+    protocol: [
+      "Manufacturer oil approval and viscosity confirmation for your exact engine code",
+      "Existing oil condition assessment for fuel dilution and contamination",
+      "Drain, replace filter and inspect the drain plug magnet for debris",
+      "Correct fill volume confirmed on the dipstick or electronic level sensor",
+      "Service indicator reset and oil level check after road test",
+    ],
+    inclusions: [
+      "Full-synthetic oil with the correct manufacturer approval for your engine",
+      "Genuine or OEM-approved oil filter with anti-drain-back construction",
+      "Sump plug washer replacement and torque to specification",
+      "Top-up of coolant, brake fluid and washer fluid",
+      "Electronic service indicator reset and digital service record entry",
+      "Complimentary wash, vehicle sanitising and 150-point visual check",
+    ],
+    brandsNote:
+      "Approvals are not interchangeable: Mercedes MB 229.5, BMW LL-01/LL-04, VW 504.00/507.00, Porsche A40 and Ferrari-specific formulations all apply to different engines, and we stock each correctly.",
+    priceFrom: 299,
+    labour: "Labour from AED 120 depending on underbody access",
+    parts: "Oil and filter priced per litre against the approval your engine requires",
+    duration: "60 to 90 minutes",
+  },
+  {
+    slug: "synthetic-oil-change",
+    name: "Synthetic Oil Change",
+    cat: "mechanical",
+    short: "Fast full-synthetic oil change with genuine filter and multi-point check.",
+    h1: "Synthetic Oil Change in Dubai — Full Synthetic, Genuine Filter, Same Day",
+    intro:
+      "A synthetic oil change is the single highest-value maintenance action for any car in the UAE. Ours includes the correct approved synthetic oil, a genuine filter and a 150-point visual inspection — completed in around an hour while you wait at our Al Quoz workshop.",
+    climate:
+      "Because Dubai traffic idles for hours and ambient temperatures stay above 40°C for months, synthetic oil degrades faster here than the manufacturer's European interval assumes. Most UAE luxury vehicles should be serviced annually or every 10,000 KM.",
+    protocol: [
+      "Engine warmed correctly for complete drainage of old oil",
+      "Oil filter and sump washer replaced with genuine components",
+      "Correct approved synthetic oil filled to manufacturer volume",
+      "Under-bonnet and under-vehicle visual inspection during drainage",
+      "Electronic oil life reset and level confirmation on completion",
+    ],
+    inclusions: [
+      "Full-synthetic engine oil with correct manufacturer approval",
+      "Genuine oil filter and sump plug washer",
+      "150-point visual inspection with written findings",
+      "Fluid top-ups and tyre pressure correction",
+      "Service indicator reset",
+      "Complimentary wash and vehicle sanitising",
+    ],
+    brandsNote:
+      "Ferrari, Lamborghini and McLaren require specific factory-approved formulations, while American V8s often run heavier grades — the approval specification matters more than the marketing on the bottle.",
+    priceFrom: 279,
+    labour: "Labour included in the quoted oil service price",
+    parts: "Oil priced per litre by approval specification, with no hidden disposal charges",
+    duration: "60 minutes",
+  },
+  {
+    slug: "oil-filter-change",
+    name: "Oil Filter Change",
+    cat: "mechanical",
+    short: "Genuine oil filter replacement with anti-drain-back construction.",
+    h1: "Oil Filter Change in Dubai — Genuine Filters, Not Cheap Copies",
+    intro:
+      "Aftermarket oil filters with weak media and poor anti-drain-back valves cause cold-start wear and oil pressure delay in exactly the climate that punishes engines hardest. We fit genuine or OEM-approved filters specified for your engine, every time.",
+    climate:
+      "A poor filter in a dusty environment loads quickly and bypasses unfiltered oil. Genuine filter media is engineered for the debris load UAE engines actually see.",
+    protocol: [
+      "Old filter removal and inspection of media for metal and sludge",
+      "Housing and mating surface cleaning before fitment",
+      "New genuine filter fitted with correct torque and pre-oiled seal",
+      "Oil level verified and top-up completed",
+      "Pressure check at idle and under load after start-up",
+    ],
+    inclusions: [
+      "Genuine or OEM-approved oil filter matched to your engine code",
+      "Filter housing clean and seal inspection",
+      "Oil level correction with the correct specification oil",
+      "Oil pressure verification at idle and load",
+      "Used filter media inspection report",
+      "No-charge disposal, wash and sanitising",
+    ],
+    brandsNote:
+      "Cartridge-style filters on BMW and Mercedes, canister filters on Japanese platforms and remote-mounted filters on American vehicles all use different torque and priming procedures we follow exactly.",
+    priceFrom: 180,
+    labour: "Labour from AED 90 when fitted as a standalone service",
+    parts: "Genuine filter plus correct-specification top-up oil priced together",
+    duration: "45 minutes",
+  },
+  {
+    slug: "oil-flushing",
+    name: "Oil Flushing",
+    cat: "mechanical",
+    short: "Engine flush treatment to remove sludge and varnish build-up.",
+    h1: "Engine Oil Flushing in Dubai — Remove Sludge Before It Becomes a Failure",
+    intro:
+      "Short trips in traffic and long intervals between changes leave sludge and varnish inside a modern engine — especially in the oil galleries and the variable valve timing system. A controlled engine flush removes that contamination so fresh oil can actually protect the engine again.",
+    climate:
+      "Dubai's short-trip, high-idle duty cycle is exactly the pattern that produces sludge. Left in place, it starves the camshaft and turbocharger oil feed and causes timing faults that look like electrical problems.",
+    protocol: [
+      "Oil condition and contamination assessment before treatment",
+      "Flush additive circulated at correct temperature for the specified period",
+      "Drain with filter replacement and media inspection",
+      "Fresh approved oil fill with a short verification interval",
+      "Post-flush pressure and noise check with follow-up interval advice",
+    ],
+    inclusions: [
+      "Engine flush treatment with correct circulation period",
+      "New genuine oil filter and sump washer",
+      "Fresh approved full-synthetic oil fill",
+      "Filter media debris report",
+      "Oil pressure and engine noise verification",
+      "Recommended follow-up interval and wash on completion",
+    ],
+    brandsNote:
+      "Flushing must be handled differently on high-mileage V8s, turbocharged German engines and VVT-equipped Japanese platforms — we adjust the treatment and interval per engine family.",
+    priceFrom: 420,
+    labour: "Labour from AED 220 including the correct circulation period",
+    parts: "Flush treatment plus oil and filter included in the quoted price",
+    duration: "90 minutes",
+  },
+  {
+    slug: "150-point-inspection",
+    name: "150-Point Inspection",
+    cat: "mechanical",
+    short: "Comprehensive 150-checkpoint vehicle inspection with photographic report.",
+    h1: "150-Point Vehicle Inspection in Dubai — Know Everything Before You Commit",
+    intro:
+      "Our 150-point inspection covers the whole vehicle — engine, transmission, cooling, AC, brakes, suspension, electrical, body and interior — and produces a photographic report with measurements, not opinions. It is the basis of every honest estimate we issue.",
+    climate:
+      "A Dubai inspection must weight cooling, AC, battery, transmission fluid and rubber components heavily, because those are the systems UAE conditions destroy first and the ones sellers never mention.",
+    protocol: [
+      "Full dealer-level diagnostic scan with stored and pending fault code report",
+      "Mechanical inspection under the vehicle, in the engine bay and on the lift",
+      "Fluid condition assessment across every system",
+      "Battery, charging and electrical circuit testing",
+      "Road test assessing brakes, transmission shift quality and steering behaviour",
+    ],
+    inclusions: [
+      "150-checkpoint inspection documented in a written report",
+      "Photographic evidence of every notable finding",
+      "Diagnostic scan report with fault code explanations",
+      "Measurement data for brakes, tyres and fluid condition",
+      "Prioritised cost estimate separating urgent from optional work",
+      "Technician walkthrough call if you want to discuss findings",
+    ],
+    brandsNote:
+      "Inspection emphasis shifts by marque — air suspension and cooling on Land Rover and Porsche, mechatronic health on German automatics, transfer cases on American trucks, hybrid battery health on Lexus and Toyota.",
+    priceFrom: 499,
+    labour: "Inspection labour from AED 350 for a full 150-point report",
+    parts: "No parts required — this is a diagnostic service only",
+    duration: "2 to 3 hours",
+  },
+];
