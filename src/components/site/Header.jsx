@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Mail, Clock, Instagram, Facebook, Twitter, Menu, ChevronDown, CalendarCheck } from "lucide-react";
+import ConceptBanner from "./ConceptBanner";
 import Logo from "./Logo";
 import BrandLogo from "./BrandLogo";
 import MegaMenu from "./MegaMenu";
@@ -51,6 +52,7 @@ export default function Header() {
   return (
     <>
       <header className="sticky top-0 z-50" onMouseLeave={() => setOpen(null)}>
+        <ConceptBanner />
         {/* Utility bar */}
         <div className="bg-ink-deep text-white">
           <div className="hazard-strip h-[5px] w-full" />

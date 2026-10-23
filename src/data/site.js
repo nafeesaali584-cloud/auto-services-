@@ -1,6 +1,7 @@
 // DEMO CONFIGURATION
-export const DEMO_WA_NUMBER = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEMO_WA_NUMBER) || "971500000000";
+export const DEMO_WA_NUMBER = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEMO_WA_NUMBER) || "923184274017";
 export const DEMO_PHONE = (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEMO_PHONE) || "+971 4 324 5000";
+export const STUDIO_WA_LINK = "https://wa.me/923184274017?text=Hi%20Nafeesa,%20I%20tested%20your%20garage%20website%20demo";
 
 export const site = {
   name: "Apex Auto Services L.L.C",
@@ -71,23 +72,26 @@ export const disclaimers = {
     "Under UAE Federal Consumer Protection Law No. 15 of 2020, servicing your vehicle at an authorised independent workshop does not void your manufacturer warranty where OEM guidelines and certified parts are used.",
 };
 
-export const waLink = (message) =>
-  `https://api.whatsapp.com/send?phone=${site.waNumber}` +
-  (message ? `&text=${encodeURIComponent(message)}` : "");
+export const waLink = (message) => {
+  if (!message || message === waMessages.general) {
+    return STUDIO_WA_LINK;
+  }
+  return `https://wa.me/923184274017?text=${encodeURIComponent(`Hi Nafeesa, I tested your garage website demo — ${message}`)}`;
+};
 
 export const waMessages = {
   general:
-    "Hello Apex Auto Services — I'd like a quote for my vehicle in Dubai. Please advise on price and earliest booking.",
+    "Hi Nafeesa, I tested your garage website demo",
   inspection:
-    "Hello Apex Auto — I'd like to book a free vehicle inspection (free upon approval of repair estimate) at your Al Quoz workshop.",
+    "I'd like to test booking a vehicle inspection at your workshop demo.",
   pickup:
-    "Hello Apex Auto — I'd like to arrange free pickup and delivery upon approved estimate for my car in Dubai.",
+    "I'd like to test booking pickup and delivery on your garage demo.",
   brand: (brand) =>
-    `Hello Apex Auto — I need a specialist ${brand} diagnosis in Dubai. Can you advise on price, turnaround and pickup?`,
+    `I'm inquiring about specialist ${brand} repair from your website demo.`,
   service: (service) =>
-    `Hello Apex Auto — I'd like a quote for ${service} on my car in Dubai. Please advise on price and booking.`,
+    `I'd like to inquire about ${service} from your website demo.`,
   booking:
-    "Hello Apex Auto — I'd like to book an appointment. Here are my vehicle details:",
+    "I'd like to test booking an appointment on your garage demo.",
 };
 
 export const social = [
