@@ -1,0 +1,15 @@
+{
+  "short_name": "Apex Auto",
+  "name": "Apex Auto Services L.L.C",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0A0E11",
+  "theme_color": "#0A0E11",
+  "display": "standalone"
+}
